@@ -4,7 +4,7 @@
 		"countryNameEn": "Andorra",
 		"countryNameGer": "Andorra",
 		"capital": "Andorra la Vella",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ad.svg"
 	},
 	"1": {
@@ -36,7 +36,7 @@
 		"countryNameEn": "Albania",
 		"countryNameGer": "Albanien",
 		"capital": "Tirana",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "al.svg"
 	},
 	"5": {
@@ -68,7 +68,7 @@
 		"countryNameEn": "Austria",
 		"countryNameGer": "Österreich",
 		"capital": "Vienna",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "at.svg"
 	},
 	"9": {
@@ -92,7 +92,7 @@
 		"countryNameEn": "Bosnia and Herzegovina",
 		"countryNameGer": "Bosnien und Herzegowina",
 		"capital": "Sarajevo",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ba.svg"
 	},
 	"12": {
@@ -116,7 +116,7 @@
 		"countryNameEn": "Belgium",
 		"countryNameGer": "Belgien",
 		"capital": "Brussels",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "be.svg"
 	},
 	"15": {
@@ -132,7 +132,7 @@
 		"countryNameEn": "Bulgaria",
 		"countryNameGer": "Bulgarien",
 		"capital": "Sofia",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "bg.svg"
 	},
 	"17": {
@@ -212,7 +212,7 @@
 		"countryNameEn": "Belarus",
 		"countryNameGer": "Belarus",
 		"capital": "Minsk",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "by.svg"
 	},
 	"27": {
@@ -260,7 +260,7 @@
 		"countryNameEn": "Switzerland",
 		"countryNameGer": "Schweiz",
 		"capital": "Bern",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ch.svg"
 	},
 	"33": {
@@ -332,7 +332,7 @@
 		"countryNameEn": "Cyprus",
 		"countryNameGer": "Zypern",
 		"capital": "Nicosia",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "cy.svg"
 	},
 	"42": {
@@ -340,7 +340,7 @@
 		"countryNameEn": "Czechia",
 		"countryNameGer": "Tschechische Republik",
 		"capital": "Prague",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "cz.svg"
 	},
 	"43": {
@@ -348,7 +348,7 @@
 		"countryNameEn": "Germany",
 		"countryNameGer": "Deutschland",
 		"capital": "Berlin",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "de.svg"
 	},
 	"44": {
@@ -364,7 +364,7 @@
 		"countryNameEn": "Denmark",
 		"countryNameGer": "Dänemark",
 		"capital": "Copenhagen",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "dk.svg"
 	},
 	"46": {
@@ -404,7 +404,7 @@
 		"countryNameEn": "Estonia",
 		"countryNameGer": "Estland",
 		"capital": "Tallinn",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ee.svg"
 	},
 	"51": {
@@ -428,7 +428,7 @@
 		"countryNameEn": "Spain",
 		"countryNameGer": "Spanien",
 		"capital": "Madrid",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "es.svg"
 	},
 	"54": {
@@ -444,7 +444,7 @@
 		"countryNameEn": "Finland",
 		"countryNameGer": "Finnland",
 		"capital": "Helsinki",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "fi.svg"
 	},
 	"56": {
@@ -460,7 +460,7 @@
 		"countryNameEn": "Faroe Islands",
 		"countryNameGer": "Färöer",
 		"capital": "Torshavn",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "fo.svg"
 	},
 	"58": {
@@ -468,7 +468,7 @@
 		"countryNameEn": "France",
 		"countryNameGer": "Frankreich",
 		"capital": "Paris",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "fr.svg"
 	},
 	"59": {
@@ -484,7 +484,7 @@
 		"countryNameEn": "United Kingdom",
 		"countryNameGer": "Großbritannien",
 		"capital": "London",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "gb.svg"
 	},
 	"61": {
@@ -540,7 +540,7 @@
 		"countryNameEn": "Greece",
 		"countryNameGer": "Griechenland",
 		"capital": "Athens",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "gr.svg"
 	},
 	"68": {
@@ -580,7 +580,7 @@
 		"countryNameEn": "Croatia",
 		"countryNameGer": "Kroatien",
 		"capital": "Zagreb",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "hr.svg"
 	},
 	"73": {
@@ -596,7 +596,7 @@
 		"countryNameEn": "Hungary",
 		"countryNameGer": "Ungarn",
 		"capital": "Budapest",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "hu.svg"
 	},
 	"75": {
@@ -612,7 +612,7 @@
 		"countryNameEn": "Ireland",
 		"countryNameGer": "Irland",
 		"capital": "Dublin",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ie.svg"
 	},
 	"77": {
@@ -652,7 +652,7 @@
 		"countryNameEn": "Iceland",
 		"countryNameGer": "Island",
 		"capital": "Reykjavik",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "is.svg"
 	},
 	"82": {
@@ -660,7 +660,7 @@
 		"countryNameEn": "Italy",
 		"countryNameGer": "Italien",
 		"capital": "Rome",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "it.svg"
 	},
 	"83": {
@@ -796,7 +796,7 @@
 		"countryNameEn": "Liechtenstein",
 		"countryNameGer": "Liechtenstein",
 		"capital": "Vaduz",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "li.svg"
 	},
 	"100": {
@@ -828,7 +828,7 @@
 		"countryNameEn": "Lithuania",
 		"countryNameGer": "Litauen",
 		"capital": "Vilnius",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "lt.svg"
 	},
 	"104": {
@@ -836,7 +836,7 @@
 		"countryNameEn": "Luxembourg",
 		"countryNameGer": "Luxemburg",
 		"capital": "Luxembourg",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "lu.svg"
 	},
 	"105": {
@@ -844,7 +844,7 @@
 		"countryNameEn": "Latvia",
 		"countryNameGer": "Lettland",
 		"capital": "Riga",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "lv.svg"
 	},
 	"106": {
@@ -868,7 +868,7 @@
 		"countryNameEn": "Monaco",
 		"countryNameGer": "Monaco",
 		"capital": "Monaco",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "mc.svg"
 	},
 	"109": {
@@ -876,7 +876,7 @@
 		"countryNameEn": "Moldova",
 		"countryNameGer": "Moldau",
 		"capital": "Chisinau",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "md.svg"
 	},
 	"110": {
@@ -884,7 +884,7 @@
 		"countryNameEn": "Montenegro",
 		"countryNameGer": "Montenegro",
 		"capital": "Podgorica",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "me.svg"
 	},
 	"111": {
@@ -900,7 +900,7 @@
 		"countryNameEn": "North Macedonia",
 		"countryNameGer": "Nordmazedonien",
 		"capital": "Skopje",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "mk.svg"
 	},
 	"113": {
@@ -940,7 +940,7 @@
 		"countryNameEn": "Malta",
 		"countryNameGer": "Malta",
 		"capital": "Valletta",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "mt.svg"
 	},
 	"118": {
@@ -1028,7 +1028,7 @@
 		"countryNameEn": "Netherlands",
 		"countryNameGer": "Niederlande",
 		"capital": "Amsterdam",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "nl.svg"
 	},
 	"129": {
@@ -1036,7 +1036,7 @@
 		"countryNameEn": "Norway",
 		"countryNameGer": "Norwegen",
 		"capital": "Oslo",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "no.svg"
 	},
 	"130": {
@@ -1116,7 +1116,7 @@
 		"countryNameEn": "Poland",
 		"countryNameGer": "Polen",
 		"capital": "Warsaw",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "pl.svg"
 	},
 	"140": {
@@ -1124,7 +1124,7 @@
 		"countryNameEn": "Portugal",
 		"countryNameGer": "Portugal",
 		"capital": "Lisbon",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "pt.svg"
 	},
 	"141": {
@@ -1156,7 +1156,7 @@
 		"countryNameEn": "Romania",
 		"countryNameGer": "Rumänien",
 		"capital": "Bucharest",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ro.svg"
 	},
 	"145": {
@@ -1164,7 +1164,7 @@
 		"countryNameEn": "Serbia",
 		"countryNameGer": "Serbien",
 		"capital": "Belgrade",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "rs.svg"
 	},
 	"146": {
@@ -1172,7 +1172,7 @@
 		"countryNameEn": "Russia",
 		"countryNameGer": "Russische Föderation",
 		"capital": "Moscow",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ru.svg"
 	},
 	"147": {
@@ -1220,7 +1220,7 @@
 		"countryNameEn": "Sweden",
 		"countryNameGer": "Schweden",
 		"capital": "Stockholm",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "se.svg"
 	},
 	"153": {
@@ -1236,7 +1236,7 @@
 		"countryNameEn": "Slovenia",
 		"countryNameGer": "Slowenien",
 		"capital": "Ljubljana",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "si.svg"
 	},
 	"155": {
@@ -1244,7 +1244,7 @@
 		"countryNameEn": "Slovakia",
 		"countryNameGer": "Slowakei",
 		"capital": "Bratislava",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "sk.svg"
 	},
 	"156": {
@@ -1260,7 +1260,7 @@
 		"countryNameEn": "San Marino",
 		"countryNameGer": "San Marino",
 		"capital": "San Marino",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "sm.svg"
 	},
 	"158": {
@@ -1420,7 +1420,7 @@
 		"countryNameEn": "Ukraine",
 		"countryNameGer": "Ukraine",
 		"capital": "Kyiv",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "ua.svg"
 	},
 	"178": {
@@ -1460,7 +1460,7 @@
 		"countryNameEn": "Vatican City",
 		"countryNameGer": "Vatikanstadt",
 		"capital": "Vatican City",
-		"continent": "Europa",
+		"continent": "Europe",
 		"filename": "va.svg"
 	},
 	"183": {
