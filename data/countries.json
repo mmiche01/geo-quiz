@@ -1,0 +1,1538 @@
+{
+	"0": {
+		"countryCode": "ad",
+		"countryNameEn": "Andorra",
+		"countryNameGer": "Andorra",
+		"capital": "Andorra la Vella",
+		"continent": "Europa",
+		"filename": "ad.svg"
+	},
+	"1": {
+		"countryCode": "ae",
+		"countryNameEn": "United Arab Emirates",
+		"countryNameGer": "Vereinigte Arabische Emirate",
+		"capital": "Abu Dhabi",
+		"continent": "Asia",
+		"filename": "ae.svg"
+	},
+	"2": {
+		"countryCode": "af",
+		"countryNameEn": "Afghanistan",
+		"countryNameGer": "Afghanistan",
+		"capital": "Kabul",
+		"continent": "Asia",
+		"filename": "af.svg"
+	},
+	"3": {
+		"countryCode": "ag",
+		"countryNameEn": "Antigua and Barbuda",
+		"countryNameGer": "Antigua und Barbuda",
+		"capital": "St. John's",
+		"continent": "North America",
+		"filename": "ag.svg"
+	},
+	"4": {
+		"countryCode": "al",
+		"countryNameEn": "Albania",
+		"countryNameGer": "Albanien",
+		"capital": "Tirana",
+		"continent": "Europa",
+		"filename": "al.svg"
+	},
+	"5": {
+		"countryCode": "am",
+		"countryNameEn": "Armenia",
+		"countryNameGer": "Armenien",
+		"capital": "Yerevan",
+		"continent": "Asia",
+		"filename": "am.svg"
+	},
+	"6": {
+		"countryCode": "ao",
+		"countryNameEn": "Angola",
+		"countryNameGer": "Angola",
+		"capital": "Luanda",
+		"continent": "Africa",
+		"filename": "ao.svg"
+	},
+	"7": {
+		"countryCode": "ar",
+		"countryNameEn": "Argentina",
+		"countryNameGer": "Argentinien",
+		"capital": "Buenos Aires",
+		"continent": "South America",
+		"filename": "ar.svg"
+	},
+	"8": {
+		"countryCode": "at",
+		"countryNameEn": "Austria",
+		"countryNameGer": "Österreich",
+		"capital": "Vienna",
+		"continent": "Europa",
+		"filename": "at.svg"
+	},
+	"9": {
+		"countryCode": "au",
+		"countryNameEn": "Australia",
+		"countryNameGer": "Australien",
+		"capital": "Canberra",
+		"continent": "Oceania",
+		"filename": "au.svg"
+	},
+	"10": {
+		"countryCode": "az",
+		"countryNameEn": "Azerbaijan",
+		"countryNameGer": "Aserbaidschan",
+		"capital": "Baku",
+		"continent": "Asia",
+		"filename": "az.svg"
+	},
+	"11": {
+		"countryCode": "ba",
+		"countryNameEn": "Bosnia and Herzegovina",
+		"countryNameGer": "Bosnien und Herzegowina",
+		"capital": "Sarajevo",
+		"continent": "Europa",
+		"filename": "ba.svg"
+	},
+	"12": {
+		"countryCode": "bb",
+		"countryNameEn": "Barbados",
+		"countryNameGer": "Barbados",
+		"capital": "Bridgetown",
+		"continent": "North America",
+		"filename": "bb.svg"
+	},
+	"13": {
+		"countryCode": "bd",
+		"countryNameEn": "Bangladesh",
+		"countryNameGer": "Bangladesch",
+		"capital": "Dhaka",
+		"continent": "Asia",
+		"filename": "bd.svg"
+	},
+	"14": {
+		"countryCode": "be",
+		"countryNameEn": "Belgium",
+		"countryNameGer": "Belgien",
+		"capital": "Brussels",
+		"continent": "Europa",
+		"filename": "be.svg"
+	},
+	"15": {
+		"countryCode": "bf",
+		"countryNameEn": "Burkina Faso",
+		"countryNameGer": "Burkina Faso",
+		"capital": "Ouagadougou",
+		"continent": "Africa",
+		"filename": "bf.svg"
+	},
+	"16": {
+		"countryCode": "bg",
+		"countryNameEn": "Bulgaria",
+		"countryNameGer": "Bulgarien",
+		"capital": "Sofia",
+		"continent": "Europa",
+		"filename": "bg.svg"
+	},
+	"17": {
+		"countryCode": "bh",
+		"countryNameEn": "Bahrain",
+		"countryNameGer": "Bahrain",
+		"capital": "Manama",
+		"continent": "Asia",
+		"filename": "bh.svg"
+	},
+	"18": {
+		"countryCode": "bi",
+		"countryNameEn": "Burundi",
+		"countryNameGer": "Burundi",
+		"capital": "Gitega",
+		"continent": "Africa",
+		"filename": "bi.svg"
+	},
+	"19": {
+		"countryCode": "bj",
+		"countryNameEn": "Benin",
+		"countryNameGer": "Benin",
+		"capital": "Porto-Novo",
+		"continent": "Africa",
+		"filename": "bj.svg"
+	},
+	"20": {
+		"countryCode": "bn",
+		"countryNameEn": "Brunei",
+		"countryNameGer": "Brunei Darussalam",
+		"capital": "Bandar Seri Begawan",
+		"continent": "Asia",
+		"filename": "bn.svg"
+	},
+	"21": {
+		"countryCode": "bo",
+		"countryNameEn": "Bolivia",
+		"countryNameGer": "Bolivien",
+		"capital": "Sucre",
+		"continent": "South America",
+		"filename": "bo.svg"
+	},
+	"22": {
+		"countryCode": "br",
+		"countryNameEn": "Brazil",
+		"countryNameGer": "Brasilien",
+		"capital": "Brasilia",
+		"continent": "South America",
+		"filename": "br.svg"
+	},
+	"23": {
+		"countryCode": "bs",
+		"countryNameEn": "Bahamas",
+		"countryNameGer": "Bahamas",
+		"capital": "Nassau",
+		"continent": "North America",
+		"filename": "bs.svg"
+	},
+	"24": {
+		"countryCode": "bt",
+		"countryNameEn": "Bhutan",
+		"countryNameGer": "Bhutan",
+		"capital": "Thimphu",
+		"continent": "Asia",
+		"filename": "bt.svg"
+	},
+	"25": {
+		"countryCode": "bw",
+		"countryNameEn": "Botswana",
+		"countryNameGer": "Botsuana",
+		"capital": "Gaborone",
+		"continent": "Africa",
+		"filename": "bw.svg"
+	},
+	"26": {
+		"countryCode": "by",
+		"countryNameEn": "Belarus",
+		"countryNameGer": "Belarus",
+		"capital": "Minsk",
+		"continent": "Europa",
+		"filename": "by.svg"
+	},
+	"27": {
+		"countryCode": "bz",
+		"countryNameEn": "Belize",
+		"countryNameGer": "Belize",
+		"capital": "Belmopan",
+		"continent": "North America",
+		"filename": "bz.svg"
+	},
+	"28": {
+		"countryCode": "ca",
+		"countryNameEn": "Canada",
+		"countryNameGer": "Kanada",
+		"capital": "Ottawa",
+		"continent": "North America",
+		"filename": "ca.svg"
+	},
+	"29": {
+		"countryCode": "cd",
+		"countryNameEn": "DR Congo",
+		"countryNameGer": "Kongo, Demokratische Republik",
+		"capital": "Kinshasa",
+		"continent": "Africa",
+		"filename": "cd.svg"
+	},
+	"30": {
+		"countryCode": "cf",
+		"countryNameEn": "Central African Republic",
+		"countryNameGer": "Zentralafrikanische Republik",
+		"capital": "Bangui",
+		"continent": "Africa",
+		"filename": "cf.svg"
+	},
+	"31": {
+		"countryCode": "cg",
+		"countryNameEn": "Congo Republic",
+		"countryNameGer": "Kongo",
+		"capital": "Brazzaville",
+		"continent": "Africa",
+		"filename": "cg.svg"
+	},
+	"32": {
+		"countryCode": "ch",
+		"countryNameEn": "Switzerland",
+		"countryNameGer": "Schweiz",
+		"capital": "Bern",
+		"continent": "Europa",
+		"filename": "ch.svg"
+	},
+	"33": {
+		"countryCode": "ci",
+		"countryNameEn": "Ivory Coast",
+		"countryNameGer": "Côte d'Ivoire",
+		"capital": "Yamoussoukro",
+		"continent": "Africa",
+		"filename": "ci.svg"
+	},
+	"34": {
+		"countryCode": "cl",
+		"countryNameEn": "Chile",
+		"countryNameGer": "Chile",
+		"capital": "Santiago",
+		"continent": "South America",
+		"filename": "cl.svg"
+	},
+	"35": {
+		"countryCode": "cm",
+		"countryNameEn": "Cameroon",
+		"countryNameGer": "Kamerun",
+		"capital": "Yaounde",
+		"continent": "Africa",
+		"filename": "cm.svg"
+	},
+	"36": {
+		"countryCode": "cn",
+		"countryNameEn": "China",
+		"countryNameGer": "China",
+		"capital": "Beijing",
+		"continent": "Asia",
+		"filename": "cn.svg"
+	},
+	"37": {
+		"countryCode": "co",
+		"countryNameEn": "Colombia",
+		"countryNameGer": "Kolumbien",
+		"capital": "Bogota",
+		"continent": "South America",
+		"filename": "co.svg"
+	},
+	"38": {
+		"countryCode": "cr",
+		"countryNameEn": "Costa Rica",
+		"countryNameGer": "Costa Rica",
+		"capital": "San Jose",
+		"continent": "North America",
+		"filename": "cr.svg"
+	},
+	"39": {
+		"countryCode": "cu",
+		"countryNameEn": "Cuba",
+		"countryNameGer": "Kuba",
+		"capital": "Havana",
+		"continent": "North America",
+		"filename": "cu.svg"
+	},
+	"40": {
+		"countryCode": "cv",
+		"countryNameEn": "Cabo Verde",
+		"countryNameGer": "Cabo Verde",
+		"capital": "Praia",
+		"continent": "Africa",
+		"filename": "cv.svg"
+	},
+	"41": {
+		"countryCode": "cy",
+		"countryNameEn": "Cyprus",
+		"countryNameGer": "Zypern",
+		"capital": "Nicosia",
+		"continent": "Europa",
+		"filename": "cy.svg"
+	},
+	"42": {
+		"countryCode": "cz",
+		"countryNameEn": "Czechia",
+		"countryNameGer": "Tschechische Republik",
+		"capital": "Prague",
+		"continent": "Europa",
+		"filename": "cz.svg"
+	},
+	"43": {
+		"countryCode": "de",
+		"countryNameEn": "Germany",
+		"countryNameGer": "Deutschland",
+		"capital": "Berlin",
+		"continent": "Europa",
+		"filename": "de.svg"
+	},
+	"44": {
+		"countryCode": "dj",
+		"countryNameEn": "Djibouti",
+		"countryNameGer": "Dschibuti",
+		"capital": "Djibouti",
+		"continent": "Africa",
+		"filename": "dj.svg"
+	},
+	"45": {
+		"countryCode": "dk",
+		"countryNameEn": "Denmark",
+		"countryNameGer": "Dänemark",
+		"capital": "Copenhagen",
+		"continent": "Europa",
+		"filename": "dk.svg"
+	},
+	"46": {
+		"countryCode": "dm",
+		"countryNameEn": "Dominica",
+		"countryNameGer": "Dominica",
+		"capital": "Roseau",
+		"continent": "North America",
+		"filename": "dm.svg"
+	},
+	"47": {
+		"countryCode": "do",
+		"countryNameEn": "Dominican Republic",
+		"countryNameGer": "Dominikanische Republik",
+		"capital": "Santo Domingo",
+		"continent": "North America",
+		"filename": "do.svg"
+	},
+	"48": {
+		"countryCode": "dz",
+		"countryNameEn": "Algeria",
+		"countryNameGer": "Algerien",
+		"capital": "Algiers",
+		"continent": "Africa",
+		"filename": "dz.svg"
+	},
+	"49": {
+		"countryCode": "ec",
+		"countryNameEn": "Ecuador",
+		"countryNameGer": "Ecuador",
+		"capital": "Quito",
+		"continent": "South America",
+		"filename": "ec.svg"
+	},
+	"50": {
+		"countryCode": "ee",
+		"countryNameEn": "Estonia",
+		"countryNameGer": "Estland",
+		"capital": "Tallinn",
+		"continent": "Europa",
+		"filename": "ee.svg"
+	},
+	"51": {
+		"countryCode": "eg",
+		"countryNameEn": "Egypt",
+		"countryNameGer": "Ägypten",
+		"capital": "Cairo",
+		"continent": "Africa",
+		"filename": "eg.svg"
+	},
+	"52": {
+		"countryCode": "er",
+		"countryNameEn": "Eritrea",
+		"countryNameGer": "Eritrea",
+		"capital": "Asmara",
+		"continent": "Africa",
+		"filename": "er.svg"
+	},
+	"53": {
+		"countryCode": "es",
+		"countryNameEn": "Spain",
+		"countryNameGer": "Spanien",
+		"capital": "Madrid",
+		"continent": "Europa",
+		"filename": "es.svg"
+	},
+	"54": {
+		"countryCode": "et",
+		"countryNameEn": "Ethiopia",
+		"countryNameGer": "Äthiopien",
+		"capital": "Addis Ababa",
+		"continent": "Africa",
+		"filename": "et.svg"
+	},
+	"55": {
+		"countryCode": "fi",
+		"countryNameEn": "Finland",
+		"countryNameGer": "Finnland",
+		"capital": "Helsinki",
+		"continent": "Europa",
+		"filename": "fi.svg"
+	},
+	"56": {
+		"countryCode": "fj",
+		"countryNameEn": "Fiji",
+		"countryNameGer": "Fidschi",
+		"capital": "Suva",
+		"continent": "Oceania",
+		"filename": "fj.svg"
+	},
+	"57": {
+		"countryCode": "fo",
+		"countryNameEn": "Faroe Islands",
+		"countryNameGer": "Färöer",
+		"capital": "Torshavn",
+		"continent": "Europa",
+		"filename": "fo.svg"
+	},
+	"58": {
+		"countryCode": "fr",
+		"countryNameEn": "France",
+		"countryNameGer": "Frankreich",
+		"capital": "Paris",
+		"continent": "Europa",
+		"filename": "fr.svg"
+	},
+	"59": {
+		"countryCode": "ga",
+		"countryNameEn": "Gabon",
+		"countryNameGer": "Gabun",
+		"capital": "Libreville",
+		"continent": "Africa",
+		"filename": "ga.svg"
+	},
+	"60": {
+		"countryCode": "gb",
+		"countryNameEn": "United Kingdom",
+		"countryNameGer": "Großbritannien",
+		"capital": "London",
+		"continent": "Europa",
+		"filename": "gb.svg"
+	},
+	"61": {
+		"countryCode": "gd",
+		"countryNameEn": "Grenada",
+		"countryNameGer": "Grenada",
+		"capital": "St. George's",
+		"continent": "North America",
+		"filename": "gd.svg"
+	},
+	"62": {
+		"countryCode": "ge",
+		"countryNameEn": "Georgia",
+		"countryNameGer": "Georgien",
+		"capital": "Tbilisi",
+		"continent": "Asia",
+		"filename": "ge.svg"
+	},
+	"63": {
+		"countryCode": "gh",
+		"countryNameEn": "Ghana",
+		"countryNameGer": "Ghana",
+		"capital": "Accra",
+		"continent": "Africa",
+		"filename": "gh.svg"
+	},
+	"64": {
+		"countryCode": "gm",
+		"countryNameEn": "The Gambia",
+		"countryNameGer": "Gambia",
+		"capital": "Banjul",
+		"continent": "Africa",
+		"filename": "gm.svg"
+	},
+	"65": {
+		"countryCode": "gn",
+		"countryNameEn": "Guinea",
+		"countryNameGer": "Guinea",
+		"capital": "Conakry",
+		"continent": "Africa",
+		"filename": "gn.svg"
+	},
+	"66": {
+		"countryCode": "gq",
+		"countryNameEn": "Equatorial Guinea",
+		"countryNameGer": "Äquatorialguinea",
+		"capital": "Malabo",
+		"continent": "Africa",
+		"filename": "gq.svg"
+	},
+	"67": {
+		"countryCode": "gr",
+		"countryNameEn": "Greece",
+		"countryNameGer": "Griechenland",
+		"capital": "Athens",
+		"continent": "Europa",
+		"filename": "gr.svg"
+	},
+	"68": {
+		"countryCode": "gt",
+		"countryNameEn": "Guatemala",
+		"countryNameGer": "Guatemala",
+		"capital": "Guatemala City",
+		"continent": "North America",
+		"filename": "gt.svg"
+	},
+	"69": {
+		"countryCode": "gw",
+		"countryNameEn": "Guinea-Bissau",
+		"countryNameGer": "Guinea-Bissau",
+		"capital": "Bissau",
+		"continent": "Africa",
+		"filename": "gw.svg"
+	},
+	"70": {
+		"countryCode": "gy",
+		"countryNameEn": "Guyana",
+		"countryNameGer": "Guyana",
+		"capital": "Georgetown",
+		"continent": "South America",
+		"filename": "gy.svg"
+	},
+	"71": {
+		"countryCode": "hn",
+		"countryNameEn": "Honduras",
+		"countryNameGer": "Honduras",
+		"capital": "Tegucigalpa",
+		"continent": "North America",
+		"filename": "hn.svg"
+	},
+	"72": {
+		"countryCode": "hr",
+		"countryNameEn": "Croatia",
+		"countryNameGer": "Kroatien",
+		"capital": "Zagreb",
+		"continent": "Europa",
+		"filename": "hr.svg"
+	},
+	"73": {
+		"countryCode": "ht",
+		"countryNameEn": "Haiti",
+		"countryNameGer": "Haiti",
+		"capital": "Port-au-Prince",
+		"continent": "North America",
+		"filename": "ht.svg"
+	},
+	"74": {
+		"countryCode": "hu",
+		"countryNameEn": "Hungary",
+		"countryNameGer": "Ungarn",
+		"capital": "Budapest",
+		"continent": "Europa",
+		"filename": "hu.svg"
+	},
+	"75": {
+		"countryCode": "id",
+		"countryNameEn": "Indonesia",
+		"countryNameGer": "Indonesien",
+		"capital": "Jakarta",
+		"continent": "Asia",
+		"filename": "id.svg"
+	},
+	"76": {
+		"countryCode": "ie",
+		"countryNameEn": "Ireland",
+		"countryNameGer": "Irland",
+		"capital": "Dublin",
+		"continent": "Europa",
+		"filename": "ie.svg"
+	},
+	"77": {
+		"countryCode": "il",
+		"countryNameEn": "Israel",
+		"countryNameGer": "Israel",
+		"capital": "Jerusalem",
+		"continent": "Asia",
+		"filename": "il.svg"
+	},
+	"78": {
+		"countryCode": "in",
+		"countryNameEn": "India",
+		"countryNameGer": "Indien",
+		"capital": "New Delhi",
+		"continent": "Asia",
+		"filename": "in.svg"
+	},
+	"79": {
+		"countryCode": "iq",
+		"countryNameEn": "Iraq",
+		"countryNameGer": "Irak",
+		"capital": "Baghdad",
+		"continent": "Asia",
+		"filename": "iq.svg"
+	},
+	"80": {
+		"countryCode": "ir",
+		"countryNameEn": "Iran",
+		"countryNameGer": "Iran",
+		"capital": "Tehran",
+		"continent": "Asia",
+		"filename": "ir.svg"
+	},
+	"81": {
+		"countryCode": "is",
+		"countryNameEn": "Iceland",
+		"countryNameGer": "Island",
+		"capital": "Reykjavik",
+		"continent": "Europa",
+		"filename": "is.svg"
+	},
+	"82": {
+		"countryCode": "it",
+		"countryNameEn": "Italy",
+		"countryNameGer": "Italien",
+		"capital": "Rome",
+		"continent": "Europa",
+		"filename": "it.svg"
+	},
+	"83": {
+		"countryCode": "jm",
+		"countryNameEn": "Jamaica",
+		"countryNameGer": "Jamaika",
+		"capital": "Kingston",
+		"continent": "North America",
+		"filename": "jm.svg"
+	},
+	"84": {
+		"countryCode": "jo",
+		"countryNameEn": "Jordan",
+		"countryNameGer": "Jordanien",
+		"capital": "Amman",
+		"continent": "Asia",
+		"filename": "jo.svg"
+	},
+	"85": {
+		"countryCode": "jp",
+		"countryNameEn": "Japan",
+		"countryNameGer": "Japan",
+		"capital": "Tokyo",
+		"continent": "Asia",
+		"filename": "jp.svg"
+	},
+	"86": {
+		"countryCode": "ke",
+		"countryNameEn": "Kenya",
+		"countryNameGer": "Kenia",
+		"capital": "Nairobi",
+		"continent": "Africa",
+		"filename": "ke.svg"
+	},
+	"87": {
+		"countryCode": "kg",
+		"countryNameEn": "Kyrgyzstan",
+		"countryNameGer": "Kirgisistan",
+		"capital": "Bishkek",
+		"continent": "Asia",
+		"filename": "kg.svg"
+	},
+	"88": {
+		"countryCode": "kh",
+		"countryNameEn": "Cambodia",
+		"countryNameGer": "Kambodscha",
+		"capital": "Phnom Penh",
+		"continent": "Asia",
+		"filename": "kh.svg"
+	},
+	"89": {
+		"countryCode": "ki",
+		"countryNameEn": "Kiribati",
+		"countryNameGer": "Kiribati",
+		"capital": "Tarawa",
+		"continent": "Oceania",
+		"filename": "ki.svg"
+	},
+	"90": {
+		"countryCode": "km",
+		"countryNameEn": "Comoros",
+		"countryNameGer": "Komoren",
+		"capital": "Moroni",
+		"continent": "Africa",
+		"filename": "km.svg"
+	},
+	"91": {
+		"countryCode": "kn",
+		"countryNameEn": "St Kitts and Nevis",
+		"countryNameGer": "St. Kitts und Nevis",
+		"capital": "Basseterre",
+		"continent": "North America",
+		"filename": "kn.svg"
+	},
+	"92": {
+		"countryCode": "kp",
+		"countryNameEn": "North Korea",
+		"countryNameGer": "Korea, Demokratische Volksrepublik",
+		"capital": "Pyongyang",
+		"continent": "Asia",
+		"filename": "kp.svg"
+	},
+	"93": {
+		"countryCode": "kr",
+		"countryNameEn": "South Korea",
+		"countryNameGer": "Korea, Republik",
+		"capital": "Seoul",
+		"continent": "Asia",
+		"filename": "kr.svg"
+	},
+	"94": {
+		"countryCode": "kw",
+		"countryNameEn": "Kuwait",
+		"countryNameGer": "Kuwait",
+		"capital": "Kuwait City",
+		"continent": "Asia",
+		"filename": "kw.svg"
+	},
+	"95": {
+		"countryCode": "kz",
+		"countryNameEn": "Kazakhstan",
+		"countryNameGer": "Kasachstan",
+		"capital": "Nur-Sultan",
+		"continent": "Asia",
+		"filename": "kz.svg"
+	},
+	"96": {
+		"countryCode": "la",
+		"countryNameEn": "Laos",
+		"countryNameGer": "Laos",
+		"capital": "Vientiane",
+		"continent": "Asia",
+		"filename": "la.svg"
+	},
+	"97": {
+		"countryCode": "lb",
+		"countryNameEn": "Lebanon",
+		"countryNameGer": "Libanon",
+		"capital": "Beirut",
+		"continent": "Asia",
+		"filename": "lb.svg"
+	},
+	"98": {
+		"countryCode": "lc",
+		"countryNameEn": "Saint Lucia",
+		"countryNameGer": "St. Lucia",
+		"capital": "Castries",
+		"continent": "North America",
+		"filename": "lc.svg"
+	},
+	"99": {
+		"countryCode": "li",
+		"countryNameEn": "Liechtenstein",
+		"countryNameGer": "Liechtenstein",
+		"capital": "Vaduz",
+		"continent": "Europa",
+		"filename": "li.svg"
+	},
+	"100": {
+		"countryCode": "lk",
+		"countryNameEn": "Sri Lanka",
+		"countryNameGer": "Sri Lanka",
+		"capital": "Colombo",
+		"continent": "Asia",
+		"filename": "lk.svg"
+	},
+	"101": {
+		"countryCode": "lr",
+		"countryNameEn": "Liberia",
+		"countryNameGer": "Liberia",
+		"capital": "Monrovia",
+		"continent": "Africa",
+		"filename": "lr.svg"
+	},
+	"102": {
+		"countryCode": "ls",
+		"countryNameEn": "Lesotho",
+		"countryNameGer": "Lesotho",
+		"capital": "Maseru",
+		"continent": "Africa",
+		"filename": "ls.svg"
+	},
+	"103": {
+		"countryCode": "lt",
+		"countryNameEn": "Lithuania",
+		"countryNameGer": "Litauen",
+		"capital": "Vilnius",
+		"continent": "Europa",
+		"filename": "lt.svg"
+	},
+	"104": {
+		"countryCode": "lu",
+		"countryNameEn": "Luxembourg",
+		"countryNameGer": "Luxemburg",
+		"capital": "Luxembourg",
+		"continent": "Europa",
+		"filename": "lu.svg"
+	},
+	"105": {
+		"countryCode": "lv",
+		"countryNameEn": "Latvia",
+		"countryNameGer": "Lettland",
+		"capital": "Riga",
+		"continent": "Europa",
+		"filename": "lv.svg"
+	},
+	"106": {
+		"countryCode": "ly",
+		"countryNameEn": "Libya",
+		"countryNameGer": "Libyen",
+		"capital": "Tripoli",
+		"continent": "Africa",
+		"filename": "ly.svg"
+	},
+	"107": {
+		"countryCode": "ma",
+		"countryNameEn": "Morocco",
+		"countryNameGer": "Marokko",
+		"capital": "Rabat",
+		"continent": "Africa",
+		"filename": "ma.svg"
+	},
+	"108": {
+		"countryCode": "mc",
+		"countryNameEn": "Monaco",
+		"countryNameGer": "Monaco",
+		"capital": "Monaco",
+		"continent": "Europa",
+		"filename": "mc.svg"
+	},
+	"109": {
+		"countryCode": "md",
+		"countryNameEn": "Moldova",
+		"countryNameGer": "Moldau",
+		"capital": "Chisinau",
+		"continent": "Europa",
+		"filename": "md.svg"
+	},
+	"110": {
+		"countryCode": "me",
+		"countryNameEn": "Montenegro",
+		"countryNameGer": "Montenegro",
+		"capital": "Podgorica",
+		"continent": "Europa",
+		"filename": "me.svg"
+	},
+	"111": {
+		"countryCode": "mg",
+		"countryNameEn": "Madagascar",
+		"countryNameGer": "Madagaskar",
+		"capital": "Antananarivo",
+		"continent": "Africa",
+		"filename": "mg.svg"
+	},
+	"112": {
+		"countryCode": "mk",
+		"countryNameEn": "North Macedonia",
+		"countryNameGer": "Nordmazedonien",
+		"capital": "Skopje",
+		"continent": "Europa",
+		"filename": "mk.svg"
+	},
+	"113": {
+		"countryCode": "ml",
+		"countryNameEn": "Mali",
+		"countryNameGer": "Mali",
+		"capital": "Bamako",
+		"continent": "Africa",
+		"filename": "ml.svg"
+	},
+	"114": {
+		"countryCode": "mm",
+		"countryNameEn": "Myanmar",
+		"countryNameGer": "Myanmar",
+		"capital": "Nay Pyi Taw",
+		"continent": "Asia",
+		"filename": "mm.svg"
+	},
+	"115": {
+		"countryCode": "mn",
+		"countryNameEn": "Mongolia",
+		"countryNameGer": "Mongolei",
+		"capital": "Ulaanbaatar",
+		"continent": "Asia",
+		"filename": "mn.svg"
+	},
+	"116": {
+		"countryCode": "mr",
+		"countryNameEn": "Mauritania",
+		"countryNameGer": "Mauretanien",
+		"capital": "Nouakchott",
+		"continent": "Africa",
+		"filename": "mr.svg"
+	},
+	"117": {
+		"countryCode": "mt",
+		"countryNameEn": "Malta",
+		"countryNameGer": "Malta",
+		"capital": "Valletta",
+		"continent": "Europa",
+		"filename": "mt.svg"
+	},
+	"118": {
+		"countryCode": "mu",
+		"countryNameEn": "Mauritius",
+		"countryNameGer": "Mauritius",
+		"capital": "Port Louis",
+		"continent": "Africa",
+		"filename": "mu.svg"
+	},
+	"119": {
+		"countryCode": "mv",
+		"countryNameEn": "Maldives",
+		"countryNameGer": "Malediven",
+		"capital": "Male",
+		"continent": "Asia",
+		"filename": "mv.svg"
+	},
+	"120": {
+		"countryCode": "mw",
+		"countryNameEn": "Malawi",
+		"countryNameGer": "Malawi",
+		"capital": "Lilongwe",
+		"continent": "Africa",
+		"filename": "mw.svg"
+	},
+	"121": {
+		"countryCode": "mx",
+		"countryNameEn": "Mexico",
+		"countryNameGer": "Mexiko",
+		"capital": "Mexico City",
+		"continent": "North America",
+		"filename": "mx.svg"
+	},
+	"122": {
+		"countryCode": "my",
+		"countryNameEn": "Malaysia",
+		"countryNameGer": "Malaysia",
+		"capital": "Kuala Lumpur",
+		"continent": "Asia",
+		"filename": "my.svg"
+	},
+	"123": {
+		"countryCode": "mz",
+		"countryNameEn": "Mozambique",
+		"countryNameGer": "Mosambik",
+		"capital": "Maputo",
+		"continent": "Africa",
+		"filename": "mz.svg"
+	},
+	"124": {
+		"countryCode": "na",
+		"countryNameEn": "Namibia",
+		"countryNameGer": "Namibia",
+		"capital": "Windhoek",
+		"continent": "Africa",
+		"filename": "na.svg"
+	},
+	"125": {
+		"countryCode": "ne",
+		"countryNameEn": "Niger",
+		"countryNameGer": "Niger",
+		"capital": "Niamey",
+		"continent": "Africa",
+		"filename": "ne.svg"
+	},
+	"126": {
+		"countryCode": "ng",
+		"countryNameEn": "Nigeria",
+		"countryNameGer": "Nigeria",
+		"capital": "Abuja",
+		"continent": "Africa",
+		"filename": "ng.svg"
+	},
+	"127": {
+		"countryCode": "ni",
+		"countryNameEn": "Nicaragua",
+		"countryNameGer": "Nicaragua",
+		"capital": "Managua",
+		"continent": "North America",
+		"filename": "ni.svg"
+	},
+	"128": {
+		"countryCode": "nl",
+		"countryNameEn": "Netherlands",
+		"countryNameGer": "Niederlande",
+		"capital": "Amsterdam",
+		"continent": "Europa",
+		"filename": "nl.svg"
+	},
+	"129": {
+		"countryCode": "no",
+		"countryNameEn": "Norway",
+		"countryNameGer": "Norwegen",
+		"capital": "Oslo",
+		"continent": "Europa",
+		"filename": "no.svg"
+	},
+	"130": {
+		"countryCode": "np",
+		"countryNameEn": "Nepal",
+		"countryNameGer": "Nepal",
+		"capital": "Kathmandu",
+		"continent": "Asia",
+		"filename": "np.svg"
+	},
+	"131": {
+		"countryCode": "nr",
+		"countryNameEn": "Nauru",
+		"countryNameGer": "Nauru",
+		"capital": "Yaren",
+		"continent": "Oceania",
+		"filename": "nr.svg"
+	},
+	"132": {
+		"countryCode": "nz",
+		"countryNameEn": "New Zealand",
+		"countryNameGer": "Neuseeland",
+		"capital": "Wellington",
+		"continent": "Oceania",
+		"filename": "nz.svg"
+	},
+	"133": {
+		"countryCode": "om",
+		"countryNameEn": "Oman",
+		"countryNameGer": "Oman",
+		"capital": "Muscat",
+		"continent": "Asia",
+		"filename": "om.svg"
+	},
+	"134": {
+		"countryCode": "pa",
+		"countryNameEn": "Panama",
+		"countryNameGer": "Panama",
+		"capital": "Panama City",
+		"continent": "North America",
+		"filename": "pa.svg"
+	},
+	"135": {
+		"countryCode": "pe",
+		"countryNameEn": "Peru",
+		"countryNameGer": "Peru",
+		"capital": "Lima",
+		"continent": "South America",
+		"filename": "pe.svg"
+	},
+	"136": {
+		"countryCode": "pg",
+		"countryNameEn": "Papua New Guinea",
+		"countryNameGer": "Papua-Neuguinea",
+		"capital": "Port Moresby",
+		"continent": "Oceania",
+		"filename": "pg.svg"
+	},
+	"137": {
+		"countryCode": "ph",
+		"countryNameEn": "Philippines",
+		"countryNameGer": "Philippinen",
+		"capital": "Manila",
+		"continent": "Asia",
+		"filename": "ph.svg"
+	},
+	"138": {
+		"countryCode": "pk",
+		"countryNameEn": "Pakistan",
+		"countryNameGer": "Pakistan",
+		"capital": "Islamabad",
+		"continent": "Asia",
+		"filename": "pk.svg"
+	},
+	"139": {
+		"countryCode": "pl",
+		"countryNameEn": "Poland",
+		"countryNameGer": "Polen",
+		"capital": "Warsaw",
+		"continent": "Europa",
+		"filename": "pl.svg"
+	},
+	"140": {
+		"countryCode": "pt",
+		"countryNameEn": "Portugal",
+		"countryNameGer": "Portugal",
+		"capital": "Lisbon",
+		"continent": "Europa",
+		"filename": "pt.svg"
+	},
+	"141": {
+		"countryCode": "pw",
+		"countryNameEn": "Palau",
+		"countryNameGer": "Palau",
+		"capital": "Melekeok",
+		"continent": "Oceania",
+		"filename": "pw.svg"
+	},
+	"142": {
+		"countryCode": "py",
+		"countryNameEn": "Paraguay",
+		"countryNameGer": "Paraguay",
+		"capital": "Asuncion",
+		"continent": "South America",
+		"filename": "py.svg"
+	},
+	"143": {
+		"countryCode": "qa",
+		"countryNameEn": "Qatar",
+		"countryNameGer": "Katar",
+		"capital": "Doha",
+		"continent": "Asia",
+		"filename": "qa.svg"
+	},
+	"144": {
+		"countryCode": "ro",
+		"countryNameEn": "Romania",
+		"countryNameGer": "Rumänien",
+		"capital": "Bucharest",
+		"continent": "Europa",
+		"filename": "ro.svg"
+	},
+	"145": {
+		"countryCode": "rs",
+		"countryNameEn": "Serbia",
+		"countryNameGer": "Serbien",
+		"capital": "Belgrade",
+		"continent": "Europa",
+		"filename": "rs.svg"
+	},
+	"146": {
+		"countryCode": "ru",
+		"countryNameEn": "Russia",
+		"countryNameGer": "Russische Föderation",
+		"capital": "Moscow",
+		"continent": "Europa",
+		"filename": "ru.svg"
+	},
+	"147": {
+		"countryCode": "rw",
+		"countryNameEn": "Rwanda",
+		"countryNameGer": "Ruanda",
+		"capital": "Kigali",
+		"continent": "Africa",
+		"filename": "rw.svg"
+	},
+	"148": {
+		"countryCode": "sa",
+		"countryNameEn": "Saudi Arabia",
+		"countryNameGer": "Saudi-Arabien",
+		"capital": "Riyadh",
+		"continent": "Asia",
+		"filename": "sa.svg"
+	},
+	"149": {
+		"countryCode": "sb",
+		"countryNameEn": "Solomon Islands",
+		"countryNameGer": "Salomonen",
+		"capital": "Honiara",
+		"continent": "Oceania",
+		"filename": "sb.svg"
+	},
+	"150": {
+		"countryCode": "sc",
+		"countryNameEn": "Seychelles",
+		"countryNameGer": "Seychellen",
+		"capital": "Victoria",
+		"continent": "Africa",
+		"filename": "sc.svg"
+	},
+	"151": {
+		"countryCode": "sd",
+		"countryNameEn": "Sudan",
+		"countryNameGer": "Sudan",
+		"capital": "Khartoum",
+		"continent": "Africa",
+		"filename": "sd.svg"
+	},
+	"152": {
+		"countryCode": "se",
+		"countryNameEn": "Sweden",
+		"countryNameGer": "Schweden",
+		"capital": "Stockholm",
+		"continent": "Europa",
+		"filename": "se.svg"
+	},
+	"153": {
+		"countryCode": "sg",
+		"countryNameEn": "Singapore",
+		"countryNameGer": "Singapur",
+		"capital": "Singapore",
+		"continent": "Asia",
+		"filename": "sg.svg"
+	},
+	"154": {
+		"countryCode": "si",
+		"countryNameEn": "Slovenia",
+		"countryNameGer": "Slowenien",
+		"capital": "Ljubljana",
+		"continent": "Europa",
+		"filename": "si.svg"
+	},
+	"155": {
+		"countryCode": "sk",
+		"countryNameEn": "Slovakia",
+		"countryNameGer": "Slowakei",
+		"capital": "Bratislava",
+		"continent": "Europa",
+		"filename": "sk.svg"
+	},
+	"156": {
+		"countryCode": "sl",
+		"countryNameEn": "Sierra Leone",
+		"countryNameGer": "Sierra Leone",
+		"capital": "Freetown",
+		"continent": "Africa",
+		"filename": "sl.svg"
+	},
+	"157": {
+		"countryCode": "sm",
+		"countryNameEn": "San Marino",
+		"countryNameGer": "San Marino",
+		"capital": "San Marino",
+		"continent": "Europa",
+		"filename": "sm.svg"
+	},
+	"158": {
+		"countryCode": "sn",
+		"countryNameEn": "Senegal",
+		"countryNameGer": "Senegal",
+		"capital": "Dakar",
+		"continent": "Africa",
+		"filename": "sn.svg"
+	},
+	"159": {
+		"countryCode": "so",
+		"countryNameEn": "Somalia",
+		"countryNameGer": "Somalia",
+		"capital": "Mogadishu",
+		"continent": "Africa",
+		"filename": "so.svg"
+	},
+	"160": {
+		"countryCode": "sr",
+		"countryNameEn": "Suriname",
+		"countryNameGer": "Suriname",
+		"capital": "Paramaribo",
+		"continent": "South America",
+		"filename": "sr.svg"
+	},
+	"161": {
+		"countryCode": "st",
+		"countryNameEn": "São Tomé and Príncipe",
+		"countryNameGer": "São Tomé und Príncipe",
+		"capital": "Sao Tome",
+		"continent": "Africa",
+		"filename": "st.svg"
+	},
+	"162": {
+		"countryCode": "sv",
+		"countryNameEn": "El Salvador",
+		"countryNameGer": "El Salvador",
+		"capital": "San Salvador",
+		"continent": "North America",
+		"filename": "sv.svg"
+	},
+	"163": {
+		"countryCode": "sy",
+		"countryNameEn": "Syria",
+		"countryNameGer": "Syrien",
+		"capital": "Damascus",
+		"continent": "Asia",
+		"filename": "sy.svg"
+	},
+	"164": {
+		"countryCode": "sz",
+		"countryNameEn": "Eswatini",
+		"countryNameGer": "Eswatini",
+		"capital": "Mbabane",
+		"continent": "Africa",
+		"filename": "sz.svg"
+	},
+	"165": {
+		"countryCode": "td",
+		"countryNameEn": "Chad",
+		"countryNameGer": "Tschad",
+		"capital": "N'Djamena",
+		"continent": "Africa",
+		"filename": "td.svg"
+	},
+	"166": {
+		"countryCode": "tg",
+		"countryNameEn": "Togo",
+		"countryNameGer": "Togo",
+		"capital": "Lome",
+		"continent": "Africa",
+		"filename": "tg.svg"
+	},
+	"167": {
+		"countryCode": "th",
+		"countryNameEn": "Thailand",
+		"countryNameGer": "Thailand",
+		"capital": "Bangkok",
+		"continent": "Asia",
+		"filename": "th.svg"
+	},
+	"168": {
+		"countryCode": "tj",
+		"countryNameEn": "Tajikistan",
+		"countryNameGer": "Tadschikistan",
+		"capital": "Dushanbe",
+		"continent": "Asia",
+		"filename": "tj.svg"
+	},
+	"169": {
+		"countryCode": "tl",
+		"countryNameEn": "Timor-Leste",
+		"countryNameGer": "Timor-Leste",
+		"capital": "Dili",
+		"continent": "Oceania",
+		"filename": "tl.svg"
+	},
+	"170": {
+		"countryCode": "tm",
+		"countryNameEn": "Turkmenistan",
+		"countryNameGer": "Turkmenistan",
+		"capital": "Ashgabat",
+		"continent": "Asia",
+		"filename": "tm.svg"
+	},
+	"171": {
+		"countryCode": "tn",
+		"countryNameEn": "Tunisia",
+		"countryNameGer": "Tunesien",
+		"capital": "Tunis",
+		"continent": "Africa",
+		"filename": "tn.svg"
+	},
+	"172": {
+		"countryCode": "to",
+		"countryNameEn": "Tonga",
+		"countryNameGer": "Tonga",
+		"capital": "Nuku'alofa",
+		"continent": "Oceania",
+		"filename": "to.svg"
+	},
+	"173": {
+		"countryCode": "tr",
+		"countryNameEn": "Turkey",
+		"countryNameGer": "Türkei",
+		"capital": "Ankara",
+		"continent": "Asia",
+		"filename": "tr.svg"
+	},
+	"174": {
+		"countryCode": "tt",
+		"countryNameEn": "Trinidad and Tobago",
+		"countryNameGer": "Trinidad und Tobago",
+		"capital": "Port of Spain",
+		"continent": "North America",
+		"filename": "tt.svg"
+	},
+	"175": {
+		"countryCode": "tw",
+		"countryNameEn": "Taiwan",
+		"countryNameGer": "Taiwan",
+		"capital": "Taipei",
+		"continent": "Asia",
+		"filename": "tw.svg"
+	},
+	"176": {
+		"countryCode": "tz",
+		"countryNameEn": "Tanzania",
+		"countryNameGer": "Tansania",
+		"capital": "Dodoma",
+		"continent": "Africa",
+		"filename": "tz.svg"
+	},
+	"177": {
+		"countryCode": "ua",
+		"countryNameEn": "Ukraine",
+		"countryNameGer": "Ukraine",
+		"capital": "Kyiv",
+		"continent": "Europa",
+		"filename": "ua.svg"
+	},
+	"178": {
+		"countryCode": "ug",
+		"countryNameEn": "Uganda",
+		"countryNameGer": "Uganda",
+		"capital": "Kampala",
+		"continent": "Africa",
+		"filename": "ug.svg"
+	},
+	"179": {
+		"countryCode": "us",
+		"countryNameEn": "United States",
+		"countryNameGer": "Vereinigte Staaten",
+		"capital": "Washington",
+		"continent": "North America",
+		"filename": "us.svg"
+	},
+	"180": {
+		"countryCode": "uy",
+		"countryNameEn": "Uruguay",
+		"countryNameGer": "Uruguay",
+		"capital": "Montevideo",
+		"continent": "South America",
+		"filename": "uy.svg"
+	},
+	"181": {
+		"countryCode": "uz",
+		"countryNameEn": "Uzbekistan",
+		"countryNameGer": "Usbekistan",
+		"capital": "Tashkent",
+		"continent": "Asia",
+		"filename": "uz.svg"
+	},
+	"182": {
+		"countryCode": "va",
+		"countryNameEn": "Vatican City",
+		"countryNameGer": "Vatikanstadt",
+		"capital": "Vatican City",
+		"continent": "Europa",
+		"filename": "va.svg"
+	},
+	"183": {
+		"countryCode": "vc",
+		"countryNameEn": "St Vincent and Grenadines",
+		"countryNameGer": "St. Vincent und die Grenadinen",
+		"capital": "Kingstown",
+		"continent": "North America",
+		"filename": "vc.svg"
+	},
+	"184": {
+		"countryCode": "ve",
+		"countryNameEn": "Venezuela",
+		"countryNameGer": "Venezuela",
+		"capital": "Caracas",
+		"continent": "South America",
+		"filename": "ve.svg"
+	},
+	"185": {
+		"countryCode": "vn",
+		"countryNameEn": "Vietnam",
+		"countryNameGer": "Vietnam",
+		"capital": "Hanoi",
+		"continent": "Asia",
+		"filename": "vn.svg"
+	},
+	"186": {
+		"countryCode": "vu",
+		"countryNameEn": "Vanuatu",
+		"countryNameGer": "Vanuatu",
+		"capital": "Port Vila",
+		"continent": "Oceania",
+		"filename": "vu.svg"
+	},
+	"187": {
+		"countryCode": "ws",
+		"countryNameEn": "Samoa",
+		"countryNameGer": "Samoa",
+		"capital": "Apia",
+		"continent": "Oceania",
+		"filename": "ws.svg"
+	},
+	"188": {
+		"countryCode": "ye",
+		"countryNameEn": "Yemen",
+		"countryNameGer": "Jemen",
+		"capital": "Sanaa",
+		"continent": "Asia",
+		"filename": "ye.svg"
+	},
+	"189": {
+		"countryCode": "za",
+		"countryNameEn": "South Africa",
+		"countryNameGer": "Südafrika",
+		"capital": "Pretoria",
+		"continent": "Africa",
+		"filename": "za.svg"
+	},
+	"190": {
+		"countryCode": "zm",
+		"countryNameEn": "Zambia",
+		"countryNameGer": "Sambia",
+		"capital": "Lusaka",
+		"continent": "Africa",
+		"filename": "zm.svg"
+	},
+	"191": {
+		"countryCode": "zw",
+		"countryNameEn": "Zimbabwe",
+		"countryNameGer": "Simbabwe",
+		"capital": "Harare",
+		"continent": "Africa",
+		"filename": "zw.svg"
+	}
+}
