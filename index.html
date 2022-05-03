@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Countries Quiz</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<aside>Left</aside>
+		<div class="container">
+			<div class="selection-area">
+				<label for="countries">Bereich</label>
+				<select id="country-list">
+					<option value="All">Alle</option>
+					<option value="Africa">Afrika</option>
+					<option value="Asia">Asien</option>
+					<option value="Europe">Europa</option>
+					<option value="North America">Nordamerika</option>
+					<option value="Oceania">Ozeanien</option>
+					<option value="South America">Südamerika</option>
+				</select>
+				<button id="btn-start" class="btn btn-start">Start Game</button>
+			</div>
+			<div id="quiz-area">
+				<div id="quiz-content-area">
+					<div id="image-container">
+						<img src="" alt="" />
+					</div>
+					<div id="answer-button-container">
+						<button
+							id="btn-answer-1"
+							class="btn btn-answer"
+						></button>
+						<button
+							id="btn-answer-2"
+							class="btn btn-answer"
+						></button>
+						<button
+							id="btn-answer-3"
+							class="btn btn-answer"
+						></button>
+					</div>
+				</div>
+				<div id="progress-bar"></div>
+				<button id="btn-next" class="btn btn-next"></button>
+			</div>
+		</div>
+		<aside>Right</aside>
+	</body>
+</html>
