@@ -34,7 +34,35 @@
 			</nav>
 		</header>
 		<aside>Left</aside>
-		<main class="container"></main>
+		<main class="container">
+			<div class="selection-area">
+				<label for="countries">Bereich</label>
+				<select id="country-list">
+					<option value="All">Alle</option>
+					<option value="Africa">Afrika</option>
+					<option value="Asia">Asien</option>
+					<option value="Europe">Europa</option>
+					<option value="North America">Nordamerika</option>
+					<option value="Oceania">Ozeanien</option>
+					<option value="South America">Südamerika</option>
+				</select>
+				<button id="btn-start" class="btn btn-start">Start Game</button>
+			</div>
+			<div id="quiz-area">
+				<div id="quiz-content-area">
+					<div id="image-container">
+						<img src="" alt="" />
+					</div>
+					<div id="answer-button-container">
+						<button id="btn-answer-1" class="btn btn-answer"></button>
+						<button id="btn-answer-2" class="btn btn-answer"></button>
+						<button id="btn-answer-3" class="btn btn-answer"></button>
+					</div>
+				</div>
+				<div id="progress-bar"></div>
+				<button id="btn-next" class="btn btn-next"></button>
+			</div>
+		</main>
 		<aside>Right</aside>
 	</body>
 </html>
