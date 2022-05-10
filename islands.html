@@ -21,58 +21,60 @@
 		<script defer src="script.js"></script>
 	</head>
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><a href="/index.html">Home</a></li>
-					<li><a href="/countries.html">Länder</a></li>
-					<li><a href="/islands.html">Inseln</a></li>
-				</ul>
-			</nav>
-		</header>
-		<aside>Left</aside>
-		<main class="container">
-			<section class="section section-selection">
-				<div class="select-level">
-					<label for="levels">Schwierigkeit</label>
-					<select id="level-list">
-						<option value="easy">Einfach</option>
-						<option value="medium">Mittel</option>
-						<option value="hard">Schwierig</option>
-					</select>
-				</div>
-				<button id="btn-start" class="btn btn-start">Start Game</button>
-			</section>
-			<section id="section-quiz" class="section section-quiz">
-				<div id="quiz-content">
-					<div id="image-container">
-						<img src="" alt="" />
+		<div id="page-content">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="/countries.html">Länder</a></li>
+						<li><a href="/islands.html">Inseln</a></li>
+					</ul>
+				</nav>
+			</header>
+			<aside>Left</aside>
+			<main class="container">
+				<section class="section section-selection">
+					<div class="select-level">
+						<label for="levels">Schwierigkeit</label>
+						<select id="level-list">
+							<option value="easy">Einfach</option>
+							<option value="medium">Mittel</option>
+							<option value="hard">Schwierig</option>
+						</select>
 					</div>
-					<div id="answer-button-container">
-						<button id="btn-answer-1" class="btn btn-answer"></button>
-						<button id="btn-answer-2" class="btn btn-answer"></button>
-						<button id="btn-answer-3" class="btn btn-answer"></button>
+					<button id="btn-start" class="btn btn-start">Start Game</button>
+				</section>
+				<section id="section-quiz" class="section section-quiz">
+					<div id="quiz-content">
+						<div id="image-container">
+							<img src="" alt="" />
+						</div>
+						<div id="answer-button-container">
+							<button id="btn-answer-1" class="btn btn-answer"></button>
+							<button id="btn-answer-2" class="btn btn-answer"></button>
+							<button id="btn-answer-3" class="btn btn-answer"></button>
+						</div>
 					</div>
-				</div>
-				<div id="progress-bar"></div>
-				<button id="btn-next" class="btn btn-next"></button>
-			</section>
-		</main>
-		<aside>Right</aside>
-		<footer>
-			<section id="contact">
-				<a href="https://github.com/mmiche01/geo-quiz" target="_blank">
-					<img src="img/github_icon.svg" alt="GitHub symbol with link to repository" />
-				</a>
-				<address>
-					Maximilian Michel <br />
-					<a href="mailto:mmiche01@students.uni-mainz.de">E-Mail</a> <br />
-					<p><a href="https://github.com/mmiche01/geo-quiz" target="_blank">GitHub Repository</a></p>
-				</address>
-			</section>
-			<section id="licence">
-				<p>Lizenz, Daten usw.</p>
-			</section>
-		</footer>
+					<div id="progress-bar"></div>
+					<button id="btn-next" class="btn btn-next"></button>
+				</section>
+			</main>
+			<aside>Right</aside>
+			<footer>
+				<section id="contact">
+					<a href="https://github.com/mmiche01/geo-quiz" target="_blank">
+						<img src="img/github_icon.svg" alt="GitHub symbol with link to repository" />
+					</a>
+					<address>
+						Maximilian Michel <br />
+						<a href="mailto:mmiche01@students.uni-mainz.de">E-Mail</a> <br />
+						<p><a href="https://github.com/mmiche01/geo-quiz" target="_blank">GitHub Repository</a></p>
+					</address>
+				</section>
+				<section id="licence">
+					<p>Lizenz, Daten usw.</p>
+				</section>
+			</footer>
+		</div>
 	</body>
 </html>
