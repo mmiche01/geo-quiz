@@ -1,0 +1,73 @@
+/* General layout */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#page-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	background-color: green;
+	margin: 2rem 0;
+}
+
+nav ul li {
+	padding: 1rem 4rem;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: green;
+	margin-top: 2rem;
+	font-size: 0.8rem;
+}
+
+footer section {
+	border: 2px solid red;
+	margin: 1rem 2rem;
+	flex-basis: 30%;
+}
+
+footer section#contact {
+	display: flex;
+	align-items: center;
+}
+
+address {
+	font-style: normal;
+}
+
+/* Preview boxes on index.html*/
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.icon img {
+	padding-right: 1rem;
+	width: 3rem;
+}
+
+.preview {
+	width: 40%;
+	background-color: lightgray;
+	border: 1px solid black;
+	margin: 0 2rem;
+	text-align: center;
+	aspect-ratio: 1 / 1;
+}
+
+/* Basic formatting */
+
+a {
+	text-decoration: none;
+}
