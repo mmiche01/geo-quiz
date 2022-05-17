@@ -34,13 +34,13 @@ nav ul li {
 footer {
 	display: flex;
 	justify-content: space-between;
+	color: white;
 	background-color: green;
 	margin-top: 2rem;
 	font-size: 0.8rem;
 }
 
 footer section {
-	border: 2px solid red;
 	margin: 1rem 2rem;
 	flex-basis: 30%;
 	white-space: nowrap;
@@ -49,6 +49,15 @@ footer section {
 footer section#contact {
 	display: flex;
 	align-items: center;
+}
+
+footer section#licence {
+	text-align: right;
+}
+
+footer a {
+	color: white;
+	text-decoration: underline;
 }
 
 address {
@@ -62,9 +71,16 @@ address {
 	justify-content: center;
 }
 
-.icon img {
-	padding-right: 1rem;
-	width: 3rem;
+#icon {
+	margin-right: 0.8rem;
+}
+
+#github-icon {
+	transition: 0.3s;
+}
+
+#github-icon:hover {
+	fill: white;
 }
 
 .preview {
