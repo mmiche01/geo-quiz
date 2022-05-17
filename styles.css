@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+	font-family: 'PT Sans', sans-serif;
 }
 
 #page-content {
@@ -10,12 +11,20 @@
 	margin: 0 auto;
 }
 
+#title-image {
+	background-image: url('img/title_image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	aspect-ratio: 5 / 1;
+	/* height: 15rem; */
+}
+
 nav ul {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
 	background-color: green;
-	margin: 2rem 0;
+	margin-bottom: 2rem;
 }
 
 nav ul li {
@@ -34,6 +43,7 @@ footer section {
 	border: 2px solid red;
 	margin: 1rem 2rem;
 	flex-basis: 30%;
+	white-space: nowrap;
 }
 
 footer section#contact {
