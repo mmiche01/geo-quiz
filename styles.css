@@ -1,3 +1,37 @@
+/* Color palettes */
+
+/* CSS HSL */
+/* https://coolors.co/ff892c-ea5e00-fe9a0b-f8dc65-73a700-435804-466900-9ab619 */
+
+:root {
+	--princeton-orange: hsla(26, 100%, 59%, 1);
+	--spanish-orange: hsla(24, 100%, 46%, 1);
+	--yellow-orange-color-wheel: hsla(35, 99%, 52%, 1);
+	--naples-yellow: hsla(49, 91%, 68%, 1);
+	--green-ryb: hsla(79, 100%, 33%, 1);
+	--dark-moss-green: hsla(75, 91%, 18%, 1);
+	--dark-olive-green: hsla(80, 100%, 21%, 1);
+	--apple-green: hsla(71, 76%, 41%, 1);
+}
+
+/* Second palette */
+
+.first-color {
+	background: #ebbf58;
+}
+
+.second-color {
+	background: #769353;
+}
+
+.third-color {
+	background: #3d655d;
+}
+
+.fourth-color {
+	background: #33484d;
+}
+
 /* General layout */
 
 * {
@@ -15,27 +49,34 @@
 	background-image: url('img/title_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	aspect-ratio: 5 / 1;
-	/* height: 15rem; */
 }
 
-nav ul {
+#navigation ul {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	background-color: green;
+	background-color: var(--dark-olive-green);
 	margin-bottom: 2rem;
+	border-top: 1px solid white;
 }
 
-nav ul li {
-	padding: 1rem 4rem;
+#navigation li {
+	color: white;
+	padding: 1rem 3rem;
+	transition: 0.1s;
+}
+
+#navigation li:hover {
+	background-color: hsla(80, 80%, 21%, 1);
 }
 
 footer {
 	display: flex;
 	justify-content: space-between;
 	color: white;
-	background-color: green;
+	background-color: var(--dark-olive-green);
 	margin-top: 2rem;
 	font-size: 0.8rem;
 }
@@ -56,19 +97,11 @@ footer section#licence {
 }
 
 footer a {
-	color: white;
 	text-decoration: underline;
 }
 
 address {
 	font-style: normal;
-}
-
-/* Preview boxes on index.html*/
-
-.container {
-	display: flex;
-	justify-content: center;
 }
 
 #icon {
@@ -81,6 +114,13 @@ address {
 
 #github-icon:hover {
 	fill: white;
+}
+
+/* Preview boxes on index.html*/
+
+.container {
+	display: flex;
+	justify-content: center;
 }
 
 .preview {
@@ -96,4 +136,5 @@ address {
 
 a {
 	text-decoration: none;
+	color: white;
 }
