@@ -45,7 +45,8 @@
 	margin: 0 auto;
 }
 
-#title-image {
+#title-image a {
+	display: block;
 	background-image: url('img/title_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -59,7 +60,7 @@
 	list-style-type: none;
 	background-color: var(--dark-olive-green);
 	margin-bottom: 2rem;
-	/* padding-inline-start: 0; */
+	padding-inline-start: 0;
 	border-top: 1px solid white;
 }
 
