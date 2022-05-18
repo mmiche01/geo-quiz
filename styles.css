@@ -59,17 +59,29 @@
 	list-style-type: none;
 	background-color: var(--dark-olive-green);
 	margin-bottom: 2rem;
+	/* padding-inline-start: 0; */
 	border-top: 1px solid white;
 }
 
-#navigation li {
+#navigation li a {
+	display: block;
 	color: white;
 	padding: 1rem 3rem;
 	transition: 0.1s;
 }
 
-#navigation li:hover {
-	background-color: hsla(80, 80%, 21%, 1);
+#navigation li:not(:first-child)::before {
+	content: '';
+	height: 50%;
+	width: 0.1rem;
+	float: left;
+	background-color: white;
+	transform: translateY(50%);
+}
+
+#navigation li:hover,
+#navigation li:active {
+	background-color: hsla(80, 70%, 21%, 1);
 }
 
 footer {
