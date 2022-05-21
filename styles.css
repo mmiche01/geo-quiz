@@ -204,3 +204,41 @@ a {
 	text-decoration: none;
 	color: white;
 }
+
+/* Quiz pages */
+
+.section-quiz {
+	display: none;
+}
+
+.section-selection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.select-level,
+.select-country {
+	flex: 0 1 45%;
+	/* text-align: center; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.select-level label,
+.select-country label {
+	flex: 1 1 100%;
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+
+.select-level select,
+.select-country select {
+	flex: 0 1 80%;
+	margin-bottom: 2rem;
+}
+
+.btn-start {
+	padding: 0.5rem 1rem;
+}
