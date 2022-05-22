@@ -211,7 +211,6 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	display: none;
 }
 
 .select-level,
