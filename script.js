@@ -2,15 +2,25 @@ const selectionArea = document.getElementById('section-selection');
 const quizArea = document.getElementById('section-quiz');
 const startButton = document.getElementById('btn-start');
 
+const answerButtonsAll = document.querySelectorAll('.btn-answer');
+const answerButton1 = document.getElementById('btn-answer-1');
+const answerButton2 = document.getElementById('btn-answer-2');
+const answerButton3 = document.getElementById('btn-answer-3');
+
 let countriesJson;
 
-startButton.addEventListener('click', () => {
-	startGame();
+startButton.addEventListener('click', startGame);
+answerButtonsAll.forEach((item) => {
+	item.addEventListener('click', (event) => {
+		validateAnswer(event);
+	});
 });
 
-function startGame() {
+async function startGame() {
+	countriesJson = await getJson('data/countries.json');
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
+	displayQuestion();
 }
 
 async function getJson(url) {
@@ -19,12 +29,11 @@ async function getJson(url) {
 	return data;
 }
 
-async function main() {
-	//OPTION 1
-	// getJson('data/countries.json').then((data) => console.log(data));
-
-	//OPTION 2
-	countriesJson = await getJson('data/countries.json');
+function displayQuestion() {
+	const countrySVG = document.getElementById('country-svg');
 }
 
-main();
+function validateAnswer(event) {
+	event.target.classList.toggle('correct-answer');
+	console.log(event.target);
+}
