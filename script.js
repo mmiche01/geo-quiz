@@ -34,6 +34,8 @@ async function getJson(url) {
 function displayQuestion() {
 	const countrySVG = document.getElementById('country-svg');
 	let currentCountry = getRandomCountry();
+	fillButtons(currentCountry);
+	countrySVG.src = `data/svg/${currentCountry.countryCode}.svg`;
 }
 
 function getRandomCountry() {
@@ -52,7 +54,31 @@ function getRandomNumber() {
 	return random;
 }
 
+function fillButtons(currentCountry) {
+	function shuffle(array) {
+		for (let i = array.length - 1; i > 0; i--) {
+			let j = Math.floor(Math.random() * (i + 1));
+			[array[i], array[j]] = [array[j], array[i]];
+		}
+		return array;
+	}
+	let buttonSequence = shuffle([1, 2, 3]);
+	answerButton1.innerText = currentCountry.nameGer;
+	answerButton2.innerText = 'Test';
+	answerButton3.innerText = 'Test';
+}
+
 function validateAnswer(event) {
 	event.target.classList.toggle('correct-answer');
 	console.log(event.target);
 }
+
+function shuffle(array) {
+	for (let i = array.length - 1; i > 0; i--) {
+		let j = Math.floor(Math.random() * (i + 1));
+		[array[i], array[j]] = [array[j], array[i]];
+	}
+	return array;
+}
+let myArray = [1, 2, 3, 4];
+console.log(shuffle(myArray));
