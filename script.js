@@ -7,6 +7,8 @@ const answerButton1 = document.getElementById('btn-answer-1');
 const answerButton2 = document.getElementById('btn-answer-2');
 const answerButton3 = document.getElementById('btn-answer-3');
 
+let usedCountries = {};
+
 let countriesJson;
 
 startButton.addEventListener('click', startGame);
@@ -31,6 +33,23 @@ async function getJson(url) {
 
 function displayQuestion() {
 	const countrySVG = document.getElementById('country-svg');
+	let currentCountry = getRandomCountry();
+}
+
+function getRandomCountry() {
+	let random = getRandomNumber();
+	let randomCountry = countriesJson[random];
+	usedCountries[random] = randomCountry;
+	return randomCountry;
+}
+
+function getRandomNumber() {
+	const countEntries = Object.keys(countriesJson).length;
+	let random = Math.floor(Math.random() * countEntries);
+	if (random in usedCountries) {
+		getRandomNumber();
+	}
+	return random;
 }
 
 function validateAnswer(event) {
