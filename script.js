@@ -30,9 +30,13 @@ async function startGame(continentSelection) {
 	quizArea.classList.remove('hidden');
 	displayQuestion();
 
-	let filteredCountries = Object.values(countriesJson).filter(
-		(value) => value.continent === continentSelection.value
-	);
+	let filteredCountries = Object.values(countriesJson).filter((value) => {
+		if (continentSelection.value !== 'All') {
+			return value.continent === continentSelection.value;
+		}
+		return true;
+	});
+	console.log(filteredCountries);
 }
 
 async function getJson(url) {
