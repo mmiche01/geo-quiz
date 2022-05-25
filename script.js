@@ -76,13 +76,21 @@ function getRandomNumber() {
 function fillButtons(correctCountry, wrongCountry1, wrongCountry2) {
 	let buttonSequence = shuffle([answerButton1, answerButton2, answerButton3]);
 	buttonSequence[0].innerText = correctCountry.nameGer;
+	buttonSequence[0].dataset.answer = 'true';
 	buttonSequence[1].innerText = wrongCountry1.nameGer;
+	buttonSequence[1].dataset.answer = 'false';
 	buttonSequence[2].innerText = wrongCountry2.nameGer;
+	buttonSequence[2].dataset.answer = 'false';
 }
 
 function validateAnswer(event) {
-	event.target.classList.toggle('correct-answer');
-	// console.log(event.target);
+	console.log(event.target);
+	if (event.target.dataset.answer === 'true') {
+		event.target.classList.toggle('correct-answer');
+	} else {
+		event.target.classList.toggle('wrong-answer');
+		document.querySelector('[data-answer="true"]').classList.toggle('correct-answer');
+	}
 }
 
 function shuffle(array) {
