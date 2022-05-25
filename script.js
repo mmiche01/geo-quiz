@@ -1,5 +1,8 @@
 const selectionArea = document.getElementById('section-selection');
 const quizArea = document.getElementById('section-quiz');
+
+const continentSelection = document.getElementById('country-list');
+
 const startButton = document.getElementById('btn-start');
 
 const answerButtonsAll = document.querySelectorAll('.btn-answer');
@@ -11,18 +14,25 @@ let usedCountries = {};
 
 let countriesJson;
 
-startButton.addEventListener('click', startGame);
+startButton.addEventListener('click', () => {
+	startGame(continentSelection);
+});
+
 answerButtonsAll.forEach((item) => {
 	item.addEventListener('click', (event) => {
 		validateAnswer(event);
 	});
 });
 
-async function startGame() {
+async function startGame(continentSelection) {
 	countriesJson = await getJson('data/countries.json');
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
 	displayQuestion();
+
+	let filteredCountries = Object.values(countriesJson).filter(
+		(value) => value.continent === continentSelection.value
+	);
 }
 
 async function getJson(url) {
