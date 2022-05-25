@@ -13,6 +13,7 @@ const answerButton3 = document.getElementById('btn-answer-3');
 let usedCountries = {};
 
 let countriesJson;
+let countriesJsonFiltered;
 
 startButton.addEventListener('click', () => {
 	startGame(continentSelection);
@@ -26,17 +27,15 @@ answerButtonsAll.forEach((item) => {
 
 async function startGame(continentSelection) {
 	countriesJson = await getJson('data/countries.json');
-	selectionArea.classList.add('hidden');
-	quizArea.classList.remove('hidden');
-	displayQuestion();
-
-	let filteredCountries = Object.values(countriesJson).filter((value) => {
+	countriesJsonFiltered = Object.values(countriesJson).filter((value) => {
 		if (continentSelection.value !== 'All') {
 			return value.continent === continentSelection.value;
 		}
 		return true;
 	});
-	console.log(filteredCountries);
+	selectionArea.classList.add('hidden');
+	quizArea.classList.remove('hidden');
+	displayQuestion(countriesJsonFiltered);
 }
 
 async function getJson(url) {
@@ -47,44 +46,43 @@ async function getJson(url) {
 
 function displayQuestion() {
 	const countrySVG = document.getElementById('country-svg');
-	let currentCountry = getRandomCountry();
-	fillButtons(currentCountry);
-	countrySVG.src = `data/svg/${currentCountry.countryCode}.svg`;
+	let correctCountry = getRandomCountry('correct');
+	let wrongCountry1 = getRandomCountry('wrong');
+	let wrongCountry2 = getRandomCountry('wrong');
+	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
+	countrySVG.src = `data/svg/${correctCountry.countryCode}.svg`;
+	console.log(usedCountries);
 }
 
-function getRandomCountry() {
+function getRandomCountry(param) {
 	let random = getRandomNumber();
-	let randomCountry = countriesJson[random];
-	usedCountries[random] = randomCountry;
+	let randomCountry = countriesJsonFiltered[random];
+	if (param === 'correct') {
+		usedCountries[random] = randomCountry;
+	}
 	return randomCountry;
 }
 
 function getRandomNumber() {
 	const countEntries = Object.keys(countriesJson).length;
 	let random = Math.floor(Math.random() * countEntries);
-	if (random in usedCountries) {
-		getRandomNumber();
+	if (random in usedCountries || !countriesJsonFiltered[random]) {
+		return getRandomNumber();
+	} else {
+		return random;
 	}
-	return random;
 }
 
-function fillButtons(currentCountry) {
-	function shuffle(array) {
-		for (let i = array.length - 1; i > 0; i--) {
-			let j = Math.floor(Math.random() * (i + 1));
-			[array[i], array[j]] = [array[j], array[i]];
-		}
-		return array;
-	}
-	let buttonSequence = shuffle([1, 2, 3]);
-	answerButton1.innerText = currentCountry.nameGer;
-	answerButton2.innerText = 'Test';
-	answerButton3.innerText = 'Test';
+function fillButtons(correctCountry, wrongCountry1, wrongCountry2) {
+	let buttonSequence = shuffle([answerButton1, answerButton2, answerButton3]);
+	buttonSequence[0].innerText = correctCountry.nameGer;
+	buttonSequence[1].innerText = wrongCountry1.nameGer;
+	buttonSequence[2].innerText = wrongCountry2.nameGer;
 }
 
 function validateAnswer(event) {
 	event.target.classList.toggle('correct-answer');
-	console.log(event.target);
+	// console.log(event.target);
 }
 
 function shuffle(array) {
@@ -94,5 +92,3 @@ function shuffle(array) {
 	}
 	return array;
 }
-let myArray = [1, 2, 3, 4];
-console.log(shuffle(myArray));
