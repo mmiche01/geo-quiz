@@ -19,12 +19,6 @@ startButton.addEventListener('click', () => {
 	startGame(continentSelection);
 });
 
-answerButtonsAll.forEach((item) => {
-	item.addEventListener('click', (event) => {
-		validateAnswer(event);
-	});
-});
-
 async function startGame(continentSelection) {
 	countriesJson = await getJson('data/countries.json');
 	countriesJsonFiltered = Object.values(countriesJson).filter((value) => {
@@ -51,7 +45,12 @@ function displayQuestion() {
 	let wrongCountry2 = getRandomCountry('wrong');
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
 	countrySVG.src = `data/svg/${correctCountry.countryCode}.svg`;
-	console.log(usedCountries);
+
+	answerButtonsAll.forEach((item) => {
+		item.addEventListener('click', (event) => {
+			validateAnswer(event);
+		});
+	});
 }
 
 function getRandomCountry(param) {
