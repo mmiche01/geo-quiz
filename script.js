@@ -17,31 +17,26 @@ let countriesJson;
 let countriesJsonFiltered;
 
 let round = 1;
+let points = 0;
 
 startButton.addEventListener('click', () => {
 	startGame(continentSelection);
 });
 
 nextButton.addEventListener('click', () => {
+	round++;
 	if (round <= 10) {
 		displayQuestion();
 	} else {
 		alert('Vorbei!');
 	}
-	console.log(round);
-	round++;
 });
 
 // TODO: build gameFinished() function
 
 async function startGame(continentSelection) {
 	countriesJson = await getJson('data/countries.json');
-	countriesJsonFiltered = Object.values(countriesJson).filter((value) => {
-		if (continentSelection.value !== 'All') {
-			return value.continent === continentSelection.value;
-		}
-		return true;
-	});
+	countriesJsonFiltered = filterJson(continentSelection);
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
 	displayQuestion(countriesJsonFiltered);
@@ -51,6 +46,16 @@ async function getJson(url) {
 	let response = await fetch(url);
 	let data = await response.json();
 	return data;
+}
+
+function filterJson(continentSelection) {
+	let filtered = Object.values(countriesJson).filter((value) => {
+		if (continentSelection.value !== 'All') {
+			return value.continent === continentSelection.value;
+		}
+		return true;
+	});
+	return filtered;
 }
 
 function displayQuestion() {
@@ -103,6 +108,7 @@ function validateAnswer(event) {
 	console.log(event.target);
 	if (event.target.dataset.answer === 'true') {
 		event.target.classList.toggle('correct-answer');
+		points++;
 	} else {
 		event.target.classList.toggle('wrong-answer');
 		document.querySelector('[data-answer="true"]').classList.toggle('correct-answer');
