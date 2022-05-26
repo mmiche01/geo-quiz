@@ -30,9 +30,14 @@ nextButton.addEventListener('click', () => {
 	if (round <= 10) {
 		displayQuestion();
 	} else {
-		alert('Vorbei!');
 		gameFinished();
 	}
+});
+
+answerButtonsAll.forEach((button) => {
+	button.addEventListener('click', (event) => {
+		validateAnswer(event);
+	});
 });
 
 async function startGame(continentSelection) {
@@ -43,8 +48,6 @@ async function startGame(continentSelection) {
 	displayQuestion(countriesJsonFiltered);
 }
 
-// TODO: build gameFinished() function
-
 function gameFinished() {
 	quizArea.classList.toggle('hidden');
 	const resultArea = document.createElement('div');
@@ -52,6 +55,7 @@ function gameFinished() {
 	const continueButtons = document.createElement('div');
 	const playAgainButton = document.createElement('button');
 	const backToStartButton = document.createElement('button');
+
 	resultArea.id = 'result-area';
 	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
 	playAgainButton.id = 'btn-play-again';
@@ -84,6 +88,7 @@ function filterJson(continentSelection) {
 }
 
 function displayQuestion() {
+	console.log(points);
 	const countrySVG = document.getElementById('country-svg');
 	resetStyles();
 	let correctCountry = getRandomCountry('correct');
@@ -92,11 +97,6 @@ function displayQuestion() {
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
 	countrySVG.src = `data/svg/${correctCountry.countryCode}.svg`;
 
-	answerButtonsAll.forEach((button) => {
-		button.addEventListener('click', (event) => {
-			validateAnswer(event);
-		});
-	});
 	// TODO: Help buttons?
 }
 
@@ -120,10 +120,10 @@ function getRandomCountry(param) {
 }
 
 function getRandomNumber() {
-	// TODO: Ruanda has wrong svg
+	// TODO: Ruanda has erroneous svg, exclude in the meantime ...
 	const countEntries = Object.keys(countriesJson).length;
 	let random = Math.floor(Math.random() * countEntries);
-	if (random in usedCountries || !countriesJsonFiltered[random]) {
+	if (random in usedCountries || !countriesJsonFiltered[random] || random === 147) {
 		return getRandomNumber();
 	} else {
 		return random;
@@ -141,7 +141,6 @@ function fillButtons(correctCountry, wrongCountry1, wrongCountry2) {
 }
 
 function validateAnswer(event) {
-	// styling problems...?
 	if (event.target.dataset.answer === 'true') {
 		event.target.classList.add('correct-answer');
 		points++;
