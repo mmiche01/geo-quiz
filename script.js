@@ -1,5 +1,6 @@
 const selectionArea = document.getElementById('section-selection');
 const quizArea = document.getElementById('section-quiz');
+const main = document.getElementsByClassName('.container')[0];
 
 const continentSelection = document.getElementById('country-list');
 
@@ -21,9 +22,7 @@ let countriesJsonFiltered;
 let round = 1;
 let points = 0;
 
-startButton.addEventListener('click', () => {
-	startGame(continentSelection);
-});
+startButton.addEventListener('click', () => startGame(continentSelection));
 
 nextButton.addEventListener('click', () => {
 	round++;
@@ -31,10 +30,9 @@ nextButton.addEventListener('click', () => {
 		displayQuestion();
 	} else {
 		alert('Vorbei!');
+		gameFinished();
 	}
 });
-
-// TODO: build gameFinished() function
 
 async function startGame(continentSelection) {
 	countriesJson = await getJson('data/countries.json');
@@ -42,6 +40,15 @@ async function startGame(continentSelection) {
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
 	displayQuestion(countriesJsonFiltered);
+}
+
+// TODO: build gameFinished() function
+
+function gameFinished() {
+	quizArea.classList.toggle('hidden');
+	const resultArea = document.createElement('div');
+	resultArea.id = 'result-area';
+	main.append(resultArea);
 }
 
 async function getJson(url) {
@@ -69,12 +76,11 @@ function displayQuestion() {
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
 	countrySVG.src = `data/svg/${correctCountry.countryCode}.svg`;
 
-	answerButtonsAll.forEach((item) => {
-		item.addEventListener('click', (event) => {
+	answerButtonsAll.forEach((button) => {
+		button.addEventListener('click', (event) => {
 			validateAnswer(event);
 		});
 	});
-	// TODO: Progress Bar
 	// TODO: Help buttons?
 }
 
@@ -118,13 +124,13 @@ function fillButtons(correctCountry, wrongCountry1, wrongCountry2) {
 }
 
 function validateAnswer(event) {
-	console.log(event.target);
+	// styling problems...?
 	if (event.target.dataset.answer === 'true') {
-		event.target.classList.toggle('correct-answer');
+		event.target.classList.add('correct-answer');
 		points++;
 	} else {
-		event.target.classList.toggle('wrong-answer');
-		document.querySelector('[data-answer="true"]').classList.toggle('correct-answer');
+		event.target.classList.add('wrong-answer');
+		document.querySelector('[data-answer="true"]').classList.add('correct-answer');
 	}
 	answerButtonsAll.forEach((button) => {
 		button.disabled = true;
