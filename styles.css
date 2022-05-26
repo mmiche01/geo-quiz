@@ -12,6 +12,9 @@
 	--dark-moss-green: hsla(75, 91%, 18%, 1);
 	--dark-olive-green: hsla(80, 100%, 21%, 1);
 	--apple-green: hsla(71, 76%, 41%, 1);
+
+	--correct: hsla(80, 94%, 25%, 1);
+	--wrong: hsla(0, 85%, 32%, 1);
 }
 
 /* Second palette */
@@ -307,6 +310,7 @@ progress {
 
 .btn:disabled {
 	cursor: auto;
+	color: black;
 }
 
 .hidden {
@@ -314,9 +318,18 @@ progress {
 }
 
 .correct-answer {
-	background-color: green;
+	background-color: var(--correct);
+	border: var(--correct);
 }
 
 .wrong-answer {
-	background-color: red;
+	background-color: var(--wrong);
+	border: var(--wrong);
+}
+
+#result-area {
+	display: block;
+	width: 50%;
+	height: 200px;
+	border: 1px solid black;
 }
