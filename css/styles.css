@@ -50,7 +50,7 @@
 
 #title-image a {
 	display: block;
-	background-image: url('img/title_image.jpg');
+	background-image: url('../img/title_image.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -162,11 +162,11 @@ address {
 }
 
 #preview-countries {
-	background-image: url('img/europe.jpg');
+	background-image: url('../img/europe.jpg');
 }
 
 #preview-islands {
-	background-image: url('img/island.jpg');
+	background-image: url('../img/island.jpg');
 }
 
 .preview-container a {
