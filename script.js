@@ -4,6 +4,7 @@ const quizArea = document.getElementById('section-quiz');
 const continentSelection = document.getElementById('country-list');
 
 const startButton = document.getElementById('btn-start');
+const nextButton = document.getElementById('btn-next');
 
 const answerButtonsAll = document.querySelectorAll('.btn-answer');
 const answerButton1 = document.getElementById('btn-answer-1');
@@ -15,9 +16,23 @@ let usedCountries = {};
 let countriesJson;
 let countriesJsonFiltered;
 
+let round = 1;
+
 startButton.addEventListener('click', () => {
 	startGame(continentSelection);
 });
+
+nextButton.addEventListener('click', () => {
+	if (round <= 10) {
+		displayQuestion();
+	} else {
+		alert('Vorbei!');
+	}
+	console.log(round);
+	round++;
+});
+
+// TODO: build gameFinished() function
 
 async function startGame(continentSelection) {
 	countriesJson = await getJson('data/countries.json');
@@ -51,6 +66,8 @@ function displayQuestion() {
 			validateAnswer(event);
 		});
 	});
+	// TODO: Rounds, Progress Bar, Points
+	// TODO: Help buttons?
 }
 
 function getRandomCountry(param) {
@@ -90,6 +107,7 @@ function validateAnswer(event) {
 		event.target.classList.toggle('wrong-answer');
 		document.querySelector('[data-answer="true"]').classList.toggle('correct-answer');
 	}
+	// TODO: Button disabling after click
 }
 
 function shuffle(array) {
