@@ -288,7 +288,7 @@ a {
 	border-radius: 1rem;
 }
 
-.btn-answer:hover {
+.btn-answer:hover:enabled {
 	background-color: hsla(79, 100%, 33%, 0.4);
 	transition: 0.3s background-color;
 }
@@ -299,6 +299,10 @@ progress {
 
 .btn {
 	cursor: pointer;
+}
+
+.btn:disabled {
+	cursor: auto;
 }
 
 .hidden {

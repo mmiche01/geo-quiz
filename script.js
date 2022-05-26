@@ -60,9 +60,7 @@ function filterJson(continentSelection) {
 
 function displayQuestion() {
 	const countrySVG = document.getElementById('country-svg');
-	answerButtonsAll.forEach((answerButton) => {
-		answerButton.classList.remove('correct-answer', 'wrong-answer');
-	});
+	resetStyles();
 	let correctCountry = getRandomCountry('correct');
 	let wrongCountry1 = getRandomCountry('wrong');
 	let wrongCountry2 = getRandomCountry('wrong');
@@ -76,6 +74,14 @@ function displayQuestion() {
 	});
 	// TODO: Progress Bar
 	// TODO: Help buttons?
+}
+
+function resetStyles() {
+	answerButtonsAll.forEach((button) => {
+		button.classList.remove('correct-answer', 'wrong-answer');
+		button.disabled = false;
+	});
+	nextButton.disabled = true;
 }
 
 function getRandomCountry(param) {
@@ -116,7 +122,10 @@ function validateAnswer(event) {
 		event.target.classList.toggle('wrong-answer');
 		document.querySelector('[data-answer="true"]').classList.toggle('correct-answer');
 	}
-	// TODO: Button disabling after click
+	answerButtonsAll.forEach((button) => {
+		button.disabled = true;
+	});
+	nextButton.disabled = false;
 }
 
 function shuffle(array) {
