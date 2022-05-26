@@ -1,6 +1,6 @@
 const selectionArea = document.getElementById('section-selection');
 const quizArea = document.getElementById('section-quiz');
-const main = document.getElementsByClassName('.container')[0];
+const main = document.getElementsByClassName('container')[0];
 
 const continentSelection = document.getElementById('country-list');
 
@@ -20,6 +20,7 @@ let countriesJson;
 let countriesJsonFiltered;
 
 let round = 1;
+// TODO: Bug in points count
 let points = 0;
 
 startButton.addEventListener('click', () => startGame(continentSelection));
@@ -47,7 +48,22 @@ async function startGame(continentSelection) {
 function gameFinished() {
 	quizArea.classList.toggle('hidden');
 	const resultArea = document.createElement('div');
+	const resultDisplay = document.createElement('p');
+	const continueButtons = document.createElement('div');
+	const playAgainButton = document.createElement('button');
+	const backToStartButton = document.createElement('button');
 	resultArea.id = 'result-area';
+	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
+	playAgainButton.id = 'btn-play-again';
+	playAgainButton.classList.add('btn', 'btn-continue');
+	playAgainButton.innerText = 'Nochmal';
+	backToStartButton.innerText = 'Zurück zur Auswahl';
+	backToStartButton.id = 'btn-back-to-start';
+	backToStartButton.classList.add('btn', 'btn-continue');
+	continueButtons.id = 'continue-button-container';
+
+	continueButtons.append(playAgainButton, backToStartButton);
+	resultArea.append(resultDisplay, continueButtons);
 	main.append(resultArea);
 }
 
@@ -104,6 +120,7 @@ function getRandomCountry(param) {
 }
 
 function getRandomNumber() {
+	// TODO: Ruanda has wrong svg
 	const countEntries = Object.keys(countriesJson).length;
 	let random = Math.floor(Math.random() * countEntries);
 	if (random in usedCountries || !countriesJsonFiltered[random]) {
