@@ -60,6 +60,9 @@ function filterJson(continentSelection) {
 
 function displayQuestion() {
 	const countrySVG = document.getElementById('country-svg');
+	answerButtonsAll.forEach((answerButton) => {
+		answerButton.classList.remove('correct-answer', 'wrong-answer');
+	});
 	let correctCountry = getRandomCountry('correct');
 	let wrongCountry1 = getRandomCountry('wrong');
 	let wrongCountry2 = getRandomCountry('wrong');
@@ -71,7 +74,7 @@ function displayQuestion() {
 			validateAnswer(event);
 		});
 	});
-	// TODO: Rounds, Progress Bar, Points
+	// TODO: Progress Bar
 	// TODO: Help buttons?
 }
 
