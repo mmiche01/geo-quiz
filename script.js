@@ -5,6 +5,8 @@ const continentSelection = document.getElementById('country-list');
 
 const startButton = document.getElementById('btn-start');
 const nextButton = document.getElementById('btn-next');
+const progressDisplay = document.getElementById('display-progress');
+const progressBar = document.getElementsByTagName('progress')[0];
 
 const answerButtonsAll = document.querySelectorAll('.btn-answer');
 const answerButton1 = document.getElementById('btn-answer-1');
@@ -82,6 +84,8 @@ function resetStyles() {
 		button.disabled = false;
 	});
 	nextButton.disabled = true;
+	progressBar.value = round;
+	progressDisplay.innerText = `${round}/10`;
 }
 
 function getRandomCountry(param) {

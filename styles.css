@@ -293,8 +293,12 @@ a {
 	transition: 0.3s background-color;
 }
 
+#display-progress {
+	margin-top: 0.5rem;
+}
+
 progress {
-	margin: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 .btn {
