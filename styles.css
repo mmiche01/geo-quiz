@@ -284,15 +284,13 @@ a {
 	width: 80%;
 	height: 2.5rem;
 	font-size: 1.2rem;
-	/* margin-left: 4rem; */
-	background-color: white;
 	border: 2px solid var(--green-ryb);
 	border-radius: 1rem;
-	transition: 0.5s;
 }
 
 .btn-answer:hover {
 	background-color: hsla(79, 100%, 33%, 0.4);
+	transition: 0.3s background-color;
 }
 
 progress {
