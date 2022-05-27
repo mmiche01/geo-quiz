@@ -47,34 +47,6 @@ async function startGame(continentSelection) {
 	displayQuestion(countriesJsonFiltered);
 }
 
-function gameFinished() {
-	quizArea.classList.toggle('hidden');
-	const resultArea = document.createElement('div');
-	const resultDisplay = document.createElement('p');
-	const continueButtons = document.createElement('div');
-	const playAgainButton = document.createElement('button');
-	const backToStartButton = document.createElement('button');
-	const a = document.createElement('a');
-	const link = document.createTextNode('Zurück zur Auswahl');
-
-	resultArea.id = 'result-area';
-	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
-	playAgainButton.id = 'btn-play-again';
-	playAgainButton.classList.add('btn', 'btn-continue');
-	playAgainButton.innerText = 'Nochmal';
-	// backToStartButton.innerText = 'Zurück zur Auswahl';
-	backToStartButton.id = 'btn-back-to-start';
-	backToStartButton.classList.add('btn', 'btn-continue');
-	a.href = '/countries.html';
-	a.appendChild(link);
-	backToStartButton.appendChild(a);
-	continueButtons.id = 'continue-button-container';
-
-	continueButtons.append(playAgainButton, backToStartButton);
-	resultArea.append(resultDisplay, continueButtons);
-	main.append(resultArea);
-}
-
 async function getJson(url) {
 	let response = await fetch(url);
 	let data = await response.json();
@@ -121,7 +93,6 @@ function getRandomCountry(param, tempExcluded) {
 		usedCountries[random] = randomCountry;
 	}
 	tempExcluded.push(random);
-	console.log(tempExcluded);
 	return randomCountry;
 }
 
@@ -171,4 +142,43 @@ function shuffle(array) {
 		[array[i], array[j]] = [array[j], array[i]];
 	}
 	return array;
+}
+
+function gameFinished() {
+	quizArea.classList.toggle('hidden');
+	const resultArea = document.createElement('div');
+	const resultDisplay = document.createElement('p');
+	const continueButtons = document.createElement('div');
+	const playAgainButton = document.createElement('button');
+	const backToStartButton = document.createElement('button');
+	const a = document.createElement('a');
+	const link = document.createTextNode('Zurück zur Auswahl');
+
+	resultArea.id = 'result-area';
+	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
+	playAgainButton.id = 'btn-play-again';
+	playAgainButton.classList.add('btn', 'btn-continue');
+	playAgainButton.innerText = 'Nochmal';
+	playAgainButton.addEventListener('click', () => {
+		resultArea.remove();
+		restartGame(continentSelection);
+	});
+	backToStartButton.id = 'btn-back-to-start';
+	backToStartButton.classList.add('btn', 'btn-continue');
+	a.href = '/countries.html';
+	a.appendChild(link);
+	backToStartButton.appendChild(a);
+	continueButtons.id = 'continue-button-container';
+
+	continueButtons.append(playAgainButton, backToStartButton);
+	resultArea.append(resultDisplay, continueButtons);
+	main.append(resultArea);
+}
+
+function restartGame(continentSelection) {
+	progressBar.value = 0;
+	round = 1;
+	points = 0;
+	usedCountries = {};
+	startGame(continentSelection);
 }
