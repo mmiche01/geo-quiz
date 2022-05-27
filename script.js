@@ -20,7 +20,6 @@ let countriesJson;
 let countriesJsonFiltered;
 
 let round = 1;
-// TODO: Bug in points count
 let points = 0;
 
 startButton.addEventListener('click', () => startGame(continentSelection));
@@ -55,15 +54,20 @@ function gameFinished() {
 	const continueButtons = document.createElement('div');
 	const playAgainButton = document.createElement('button');
 	const backToStartButton = document.createElement('button');
+	const a = document.createElement('a');
+	const link = document.createTextNode('Zurück zur Auswahl');
 
 	resultArea.id = 'result-area';
 	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
 	playAgainButton.id = 'btn-play-again';
 	playAgainButton.classList.add('btn', 'btn-continue');
 	playAgainButton.innerText = 'Nochmal';
-	backToStartButton.innerText = 'Zurück zur Auswahl';
+	// backToStartButton.innerText = 'Zurück zur Auswahl';
 	backToStartButton.id = 'btn-back-to-start';
 	backToStartButton.classList.add('btn', 'btn-continue');
+	a.href = '/countries.html';
+	a.appendChild(link);
+	backToStartButton.appendChild(a);
 	continueButtons.id = 'continue-button-container';
 
 	continueButtons.append(playAgainButton, backToStartButton);
@@ -88,14 +92,13 @@ function filterJson(continentSelection) {
 }
 
 function displayQuestion() {
-	console.log(points);
-	const countrySVG = document.getElementById('country-svg');
+	const svgElement = document.getElementById('country-svg');
 	resetStyles();
 	let correctCountry = getRandomCountry('correct');
 	let wrongCountry1 = getRandomCountry('wrong');
 	let wrongCountry2 = getRandomCountry('wrong');
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
-	countrySVG.src = `data/svg/${correctCountry.countryCode}.svg`;
+	svgElement.src = `data/svg/${correctCountry.countryCode}.svg`;
 
 	// TODO: Help buttons?
 }
@@ -111,6 +114,8 @@ function resetStyles() {
 }
 
 function getRandomCountry(param) {
+	// same country in several buttons is somehow possible...?
+	// Reason: Checks only correct country, other wrong country has to be excluded, too
 	let random = getRandomNumber();
 	let randomCountry = countriesJsonFiltered[random];
 	if (param === 'correct') {

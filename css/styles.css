@@ -247,7 +247,7 @@ a {
 }
 
 .btn-start:hover,
-.btn-next:hover,
+.btn-next:hover:enabled,
 .btn-continue:hover {
 	background-color: hsla(49, 91%, 48%, 1);
 }
@@ -299,6 +299,10 @@ a {
 	transition: 0.3s background-color;
 }
 
+.btn-answer:disabled {
+	color: black;
+}
+
 #display-progress {
 	margin-top: 0.5rem;
 }
@@ -313,7 +317,6 @@ progress {
 
 .btn:disabled {
 	cursor: auto;
-	color: black;
 }
 
 .hidden {
@@ -352,4 +355,11 @@ progress {
 
 #continue-button-container button {
 	margin: 1rem;
+}
+
+#continue-button-container a {
+	color: black;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
