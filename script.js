@@ -93,10 +93,11 @@ function filterJson(continentSelection) {
 
 function displayQuestion() {
 	const svgElement = document.getElementById('country-svg');
+	let tempExcluded = [];
+	let correctCountry = getRandomCountry('correct', tempExcluded);
+	let wrongCountry1 = getRandomCountry('wrong', tempExcluded);
+	let wrongCountry2 = getRandomCountry('wrong', tempExcluded);
 	resetStyles();
-	let correctCountry = getRandomCountry('correct');
-	let wrongCountry1 = getRandomCountry('wrong');
-	let wrongCountry2 = getRandomCountry('wrong');
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
 	svgElement.src = `data/svg/${correctCountry.countryCode}.svg`;
 
@@ -113,23 +114,28 @@ function resetStyles() {
 	progressDisplay.innerText = `${round}/10`;
 }
 
-function getRandomCountry(param) {
-	// same country in several buttons is somehow possible...?
-	// Reason: Checks only correct country, other wrong country has to be excluded, too
-	let random = getRandomNumber();
+function getRandomCountry(param, tempExcluded) {
+	let random = getRandomNumber(tempExcluded);
 	let randomCountry = countriesJsonFiltered[random];
 	if (param === 'correct') {
 		usedCountries[random] = randomCountry;
 	}
+	tempExcluded.push(random);
+	console.log(tempExcluded);
 	return randomCountry;
 }
 
-function getRandomNumber() {
+function getRandomNumber(tempExcluded) {
 	// TODO: Ruanda has erroneous svg, exclude in the meantime ...
 	const countEntries = Object.keys(countriesJson).length;
 	let random = Math.floor(Math.random() * countEntries);
-	if (random in usedCountries || !countriesJsonFiltered[random] || random === 147) {
-		return getRandomNumber();
+	if (
+		random in usedCountries ||
+		!countriesJsonFiltered[random] ||
+		random === 147 ||
+		tempExcluded.includes(random)
+	) {
+		return getRandomNumber(tempExcluded);
 	} else {
 		return random;
 	}
