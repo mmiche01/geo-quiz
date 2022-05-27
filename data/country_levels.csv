@@ -1,0 +1,193 @@
+﻿countryCode;name;level
+ad;Andorra;hard
+ae;Vereinigte Arabische Emirate;medium
+af;Afghanistan;medium
+ag;Antigua und Barbuda;hard
+al;Albanien;easy
+am;Armenien;hard
+ao;Angola;medium
+ar;Argentinien;easy
+at;Österreich;easy
+au;Australien;easy
+az;Aserbaidschan;hard
+ba;Bosnien und Herzegowina;medium
+bb;Barbados;hard
+bd;Bangladesch;easy
+be;Belgien;easy
+bf;Burkina Faso;medium
+bg;Bulgarien;medium
+bh;Bahrain;hard
+bi;Burundi;hard
+bj;Benin;hard
+bn;Brunei Darussalam;hard
+bo;Bolivien;medium
+br;Brasilien;easy
+bs;Bahamas;hard
+bt;Bhutan;hard
+bw;Botsuana;medium
+by;Belarus;medium
+bz;Belize;hard
+ca;Kanada;easy
+cd;Kongo, Demokratische Republik;easy
+cf;Zentralafrikanische Republik;medium
+cg;Kongo;medium
+ch;Schweiz;easy
+ci;Elfenbeinküste;medium
+cl;Chile;easy
+cm;Kamerun;medium
+cn;China;easy
+co;Kolumbien;easy
+cr;Costa Rica;medium
+cu;Kuba;easy
+cv;Cabo Verde;hard
+cy;Zypern;easy
+cz;Tschechische Republik;easy
+de;Deutschland;easy
+dj;Dschibuti;hard
+dk;Dänemark;easy
+dm;Dominica;hard
+do;Dominikanische Republik;medium
+dz;Algerien;easy
+ec;Ecuador;medium
+ee;Estland;medium
+eg;Ägypten;easy
+er;Eritrea;medium
+es;Spanien;easy
+et;Äthiopien;easy
+fi;Finnland;easy
+fj;Fidschi;hard
+fo;Färöer;hard
+fr;Frankreich;easy
+ga;Gabun;hard
+gb;Großbritannien;easy
+gd;Grenada;hard
+ge;Georgien;medium
+gh;Ghana;medium
+gm;Gambia;medium
+gn;Guinea;hard
+gq;Äquatorialguinea;hard
+gr;Griechenland;easy
+gt;Guatemala;hard
+gw;Guinea-Bissau;hard
+gy;Guyana;hard
+hn;Honduras;medium
+hr;Kroatien;easy
+ht;Haiti;medium
+hu;Ungarn;easy
+id;Indonesien;easy
+ie;Irland;easy
+il;Israel;easy
+in;Indien;easy
+iq;Irak;easy
+ir;Iran;easy
+is;Island;easy
+it;Italien;easy
+jm;Jamaika;medium
+jo;Jordanien;medium
+jp;Japan;easy
+ke;Kenia;medium
+kg;Kirgisistan;hard
+kh;Kambodscha;medium
+ki;Kiribati;hard
+km;Komoren;hard
+kn;St. Kitts und Nevis;hard
+kp;Korea, Demokratische Volksrepublik;medium
+kr;Korea, Republik;easy
+kw;Kuwait;hard
+kz;Kasachstan;easy
+la;Laos;medium
+lb;Libanon;medium
+lc;St. Lucia;hard
+li;Liechtenstein;medium
+lk;Sri Lanka;easy
+lr;Liberia;medium
+ls;Lesotho;hard
+lt;Litauen;medium
+lu;Luxemburg;medium
+lv;Lettland;easy
+ly;Libyen;easy
+ma;Marokko;easy
+mc;Monaco;easy
+md;Moldau;medium
+me;Montenegro;medium
+mg;Madagaskar;easy
+mk;Nordmazedonien;medium
+ml;Mali;easy
+mm;Myanmar;medium
+mn;Mongolei;easy
+mr;Mauretanien;medium
+mt;Malta;hard
+mu;Mauritius;hard
+mv;Malediven;hard
+mw;Malawi;medium
+mx;Mexiko;easy
+my;Malaysia;medium
+mz;Mosambik;easy
+na;Namibia;easy
+ne;Niger;easy
+ng;Nigeria;medium
+ni;Nicaragua;medium
+nl;Niederlande;easy
+no;Norwegen;easy
+np;Nepal;easy
+nr;Nauru;hard
+nz;Neuseeland;easy
+om;Oman;medium
+pa;Panama;easy
+pe;Peru;easy
+pg;Papua-Neuguinea;easy
+ph;Philippinen;easy
+pk;Pakistan;medium
+pl;Polen;easy
+pt;Portugal;easy
+pw;Palau;hard
+py;Paraguay;medium
+qa;Katar;medium
+ro;Rumänien;easy
+rs;Serbien;medium
+ru;Russland;easy
+rw;Ruanda;hard
+sa;Saudi-Arabien;easy
+sb;Salomonen;hard
+sc;Seychellen;hard
+sd;Sudan;easy
+se;Schweden;easy
+sg;Singapur;medium
+si;Slowenien;easy
+sk;Slowakei;easy
+sl;Sierra Leone;hard
+sm;San Marino;hard
+sn;Senegal;medium
+so;Somalia;easy
+sr;Suriname;hard
+st;São Tomé und Príncipe;hard
+sv;El Salvador;hard
+sy;Syrien;easy
+sz;Eswatini;hard
+td;Tschad;medium
+tg;Togo;hard
+th;Thailand;easy
+tj;Tadschikistan;hard
+tl;Timor-Leste;hard
+tm;Turkmenistan;hard
+tn;Tunesien;easy
+to;Tonga;hard
+tr;Türkei;easy
+tt;Trinidad und Tobago;hard
+tw;Taiwan;medium
+tz;Tansania;medium
+ua;Ukraine;easy
+ug;Uganda;medium
+us;Vereinigte Staaten;easy
+uy;Uruguay;medium
+uz;Usbekistan;hard
+va;Vatikanstadt;easy
+vc;St. Vincent und die Grenadinen;hard
+ve;Venezuela;easy
+vn;Vietnam;easy
+vu;Vanuatu;hard
+ws;Samoa;hard
+ye;Jemen;medium
+za;Südafrika;easy
+zm;Sambia;medium
+zw;Simbabwe;medium
