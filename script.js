@@ -3,6 +3,7 @@ const quizArea = document.getElementById('section-quiz');
 const main = document.getElementsByClassName('container')[0];
 
 const continentSelection = document.getElementById('country-list');
+const levelSelection = document.getElementById('level-list');
 
 const startButton = document.getElementById('btn-start');
 const nextButton = document.getElementById('btn-next');
@@ -21,6 +22,14 @@ let countriesJsonFiltered;
 
 let round = 1;
 let points = 0;
+
+// continentSelection.addEventListener('change', () => {
+// 	if (continentSelection.value !== 'All') {
+// 		levelSelection.disabled = true;
+// 	} else {
+// 		levelSelection.disabled = false;
+// 	}
+// });
 
 startButton.addEventListener('click', () => startGame(continentSelection));
 

@@ -333,6 +333,8 @@ progress {
 	border: var(--wrong);
 }
 
+/* Result display */
+
 #result-area {
 	display: flex;
 	flex-direction: column;
@@ -362,4 +364,11 @@ progress {
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+
+/* As long as level-selection is not implemented... */
+
+.select-level label {
+	color: rgb(170, 170, 170);
+	opacity: 0.8;
 }
