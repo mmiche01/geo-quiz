@@ -24,10 +24,13 @@ let round = 1;
 let points = 0;
 
 continentSelection.addEventListener('change', () => {
+	const label = document.querySelector('.select-level label');
 	if (continentSelection.value !== 'All') {
+		label.classList.add('disabled');
 		levelSelection.value = 'all';
 		levelSelection.disabled = true;
 	} else {
+		label.classList.remove('disabled');
 		levelSelection.disabled = false;
 	}
 });
