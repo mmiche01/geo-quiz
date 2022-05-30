@@ -109,15 +109,9 @@ function getRandomCountry(param, tempExcluded) {
 }
 
 function getRandomNumber(tempExcluded) {
-	// TODO: Ruanda has erroneous svg, exclude in the meantime ...
 	const countEntries = Object.keys(countriesJson).length;
 	let random = Math.floor(Math.random() * countEntries);
-	if (
-		random in usedCountries ||
-		!countriesJsonFiltered[random] ||
-		random === 147 ||
-		tempExcluded.includes(random)
-	) {
+	if (random in usedCountries || !countriesJsonFiltered[random] || tempExcluded.includes(random)) {
 		return getRandomNumber(tempExcluded);
 	} else {
 		return random;
