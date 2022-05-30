@@ -23,15 +23,16 @@ let countriesJsonFiltered;
 let round = 1;
 let points = 0;
 
-// continentSelection.addEventListener('change', () => {
-// 	if (continentSelection.value !== 'All') {
-// 		levelSelection.disabled = true;
-// 	} else {
-// 		levelSelection.disabled = false;
-// 	}
-// });
+continentSelection.addEventListener('change', () => {
+	if (continentSelection.value !== 'All') {
+		levelSelection.value = 'all';
+		levelSelection.disabled = true;
+	} else {
+		levelSelection.disabled = false;
+	}
+});
 
-startButton.addEventListener('click', () => startGame(continentSelection));
+startButton.addEventListener('click', () => startGame(continentSelection, levelSelection));
 
 nextButton.addEventListener('click', () => {
 	round++;
@@ -48,9 +49,9 @@ answerButtonsAll.forEach((button) => {
 	});
 });
 
-async function startGame(continentSelection) {
+async function startGame(continentSelection, levelSelection) {
 	countriesJson = await getJson('data/countries.json');
-	countriesJsonFiltered = filterJson(continentSelection);
+	countriesJsonFiltered = filterJson(continentSelection, levelSelection);
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
 	displayQuestion(countriesJsonFiltered);
@@ -62,10 +63,12 @@ async function getJson(url) {
 	return data;
 }
 
-function filterJson(continentSelection) {
+function filterJson(continentSelection, levelSelection) {
 	let filtered = Object.values(countriesJson).filter((value) => {
 		if (continentSelection.value !== 'All') {
 			return value.continent === continentSelection.value;
+		} else if (levelSelection.value !== 'all') {
+			return value.level === levelSelection.value;
 		}
 		return true;
 	});
@@ -170,7 +173,7 @@ function gameFinished() {
 	playAgainButton.innerText = 'Nochmal';
 	playAgainButton.addEventListener('click', () => {
 		resultArea.remove();
-		restartGame(continentSelection);
+		restartGame(continentSelection, levelSelection);
 	});
 	backToStartButton.id = 'btn-back-to-start';
 	backToStartButton.classList.add('btn', 'btn-continue');
@@ -184,10 +187,10 @@ function gameFinished() {
 	main.append(resultArea);
 }
 
-function restartGame(continentSelection) {
+function restartGame(continentSelection, levelSelection) {
 	progressBar.value = 0;
 	round = 1;
 	points = 0;
 	usedCountries = {};
-	startGame(continentSelection);
+	startGame(continentSelection, levelSelection);
 }
