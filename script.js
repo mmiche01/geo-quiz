@@ -157,34 +157,35 @@ function gameFinished() {
 	const continueButtons = document.createElement('div');
 	const playAgainButton = document.createElement('button');
 	const backToStartButton = document.createElement('button');
-	const a = document.createElement('a');
-	const link = document.createTextNode('Zurück zur Auswahl');
 
 	resultArea.id = 'result-area';
 	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
+	continueButtons.id = 'continue-button-container';
 	playAgainButton.id = 'btn-play-again';
 	playAgainButton.classList.add('btn', 'btn-continue');
 	playAgainButton.innerText = 'Nochmal';
-	playAgainButton.addEventListener('click', () => {
-		resultArea.remove();
-		restartGame(continentSelection, levelSelection);
-	});
 	backToStartButton.id = 'btn-back-to-start';
 	backToStartButton.classList.add('btn', 'btn-continue');
-	a.href = '/countries.html';
-	a.appendChild(link);
-	backToStartButton.appendChild(a);
-	continueButtons.id = 'continue-button-container';
-
+	backToStartButton.innerText = 'Zurück zum Start';
 	continueButtons.append(playAgainButton, backToStartButton);
 	resultArea.append(resultDisplay, continueButtons);
 	main.append(resultArea);
+
+	playAgainButton.addEventListener('click', () => {
+		resetGame(resultArea);
+		startGame(continentSelection, levelSelection);
+	});
+
+	backToStartButton.addEventListener('click', () => {
+		resetGame(resultArea);
+		selectionArea.classList.remove('hidden');
+	});
 }
 
-function restartGame(continentSelection, levelSelection) {
+function resetGame(resultArea) {
+	resultArea.remove();
 	progressBar.value = 0;
 	round = 1;
 	points = 0;
 	usedCountries = {};
-	startGame(continentSelection, levelSelection);
 }

@@ -363,15 +363,6 @@ progress {
 	margin: 1rem;
 }
 
-#continue-button-container a {
-	color: black;
-	display: block;
-	width: 100%;
-	height: 100%;
-}
-
-/* As long as level-selection is not implemented... */
-
 .select-level label {
 	color: rgb(170, 170, 170);
 	opacity: 0.8;
