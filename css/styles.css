@@ -112,6 +112,10 @@ footer section#licence {
 	text-align: right;
 }
 
+footer span {
+	display: block;
+}
+
 footer a {
 	text-decoration: underline;
 }
