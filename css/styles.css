@@ -365,3 +365,44 @@ progress {
 	color: rgb(170, 170, 170);
 	opacity: 0.7;
 }
+
+@media (max-width: 900px) and (min-width: 600px) {
+	#page-content {
+		width: 100%;
+		overflow-x: hidden;
+		background-color: rgb(102, 102, 206);
+	}
+
+	#navigation {
+		font-size: 0.9rem;
+	}
+
+	#navigation li a {
+		padding: 1rem 4rem;
+	}
+}
+
+@media (max-width: 600px) {
+	#page-content {
+		width: 100%;
+		overflow-x: hidden;
+		background-color: rgb(215, 124, 124);
+	}
+
+	#navigation {
+		font-size: 0.8rem;
+	}
+
+	#navigation ul {
+		justify-content: space-evenly;
+	}
+
+	#navigation li {
+		width: 100%;
+		text-align: center;
+	}
+
+	#navigation li a {
+		padding: 1rem;
+	}
+}
