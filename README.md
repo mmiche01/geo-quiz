@@ -1,3 +1,5 @@
-## Country shape Quiz
+## Country and Island Shape Quiz
 
-SVG's from [djaiss/mapsicon](https://github.com/djaiss/mapsicon).
+Islands are currently not yet available.
+
+SVG's from [djaiss/mapsicon](https://github.com/djaiss/mapsicon) and [Natural Earth](https://www.naturalearthdata.com/).
