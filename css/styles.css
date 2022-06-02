@@ -395,6 +395,7 @@ progress {
 @media (max-width: 600px) {
 	#page-content {
 		width: 100%;
+		height: 100vh;
 		overflow-x: hidden;
 		background-color: rgb(215, 124, 124);
 	}
@@ -421,6 +422,9 @@ progress {
 	}
 
 	footer {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
 		font-size: 0.5rem;
 	}
 
