@@ -46,6 +46,9 @@
 #page-content {
 	width: 80%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
 }
 
 #title-image a {
@@ -95,6 +98,7 @@ footer {
 	background-color: var(--dark-olive-green);
 	margin-top: 2rem;
 	font-size: 0.8rem;
+	flex-shrink: 0;
 }
 
 footer section {
@@ -141,6 +145,8 @@ address {
 .container {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex: 1 0 auto;
 }
 
 .preview-container {
@@ -408,6 +414,10 @@ progress {
 
 	#navigation li a {
 		padding: 1rem;
+	}
+
+	.preview-container {
+		margin: 0 1rem;
 	}
 
 	footer {
