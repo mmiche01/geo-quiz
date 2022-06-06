@@ -147,15 +147,16 @@ address {
 	justify-content: center;
 	align-items: center;
 	flex: 1 0 auto;
+	flex-wrap: wrap;
+	gap: 4rem;
 }
 
 .preview-container {
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	width: 40%;
+	width: max(40%, 15rem);
 	aspect-ratio: 1 / 1;
-	margin: 0 2rem;
 	border: 2px solid black;
 	cursor: pointer;
 }
@@ -406,10 +407,6 @@ progress {
 
 	#navigation li a {
 		padding: 1rem;
-	}
-
-	.preview-container {
-		margin: 0 1rem;
 	}
 
 	footer {
