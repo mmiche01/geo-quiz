@@ -348,7 +348,7 @@ progress {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 40%;
+	width: max(40%, 18rem);
 	height: 15rem;
 	border: 1px solid black;
 }
@@ -379,10 +379,6 @@ progress {
 		background-color: rgb(102, 102, 206);
 	}
 
-	#navigation {
-		font-size: 0.9rem;
-	}
-
 	#navigation li a {
 		padding: 1rem 4rem;
 	}
@@ -395,13 +391,8 @@ progress {
 @media (max-width: 600px) {
 	#page-content {
 		width: 100%;
-		/* height: 100vh; */
 		overflow-x: hidden;
 		background-color: rgb(215, 124, 124);
-	}
-
-	#navigation {
-		font-size: 0.8rem;
 	}
 
 	#navigation ul {
@@ -422,9 +413,6 @@ progress {
 	}
 
 	footer {
-		/* position: absolute;
-		bottom: 0px;
-		width: 100%; */
 		font-size: 0.5rem;
 	}
 
