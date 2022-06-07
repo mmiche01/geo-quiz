@@ -391,7 +391,6 @@ progress {
 	#page-content {
 		width: 100%;
 		overflow-x: hidden;
-		background-color: rgb(102, 102, 206);
 	}
 
 	#navigation li a {
@@ -407,7 +406,6 @@ progress {
 	#page-content {
 		width: 100%;
 		overflow-x: hidden;
-		background-color: rgb(215, 124, 124);
 	}
 
 	#navigation ul {
