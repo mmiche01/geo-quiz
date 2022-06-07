@@ -87,8 +87,6 @@ function displayQuestion() {
 	resetStyles();
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
 	svgElement.src = `data/svg/${correctCountry.countryCode}.svg`;
-
-	// TODO: Help buttons?
 }
 
 function resetStyles() {
@@ -154,12 +152,13 @@ function shuffle(array) {
 }
 
 function gameFinished() {
-	quizArea.classList.toggle('hidden');
 	const resultArea = document.createElement('div');
 	const resultDisplay = document.createElement('p');
 	const continueButtons = document.createElement('div');
 	const playAgainButton = document.createElement('button');
 	const backToStartButton = document.createElement('button');
+
+	quizArea.classList.toggle('hidden');
 
 	resultArea.id = 'result-area';
 	resultDisplay.innerText = `Ergebnis: ${points} von 10 richtig`;
