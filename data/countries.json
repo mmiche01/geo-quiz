@@ -1516,7 +1516,7 @@
 		"capitalEn": "Khartoum",
 		"capitalGer": "Khartum",
 		"continent": "Africa",
-		"level": "easy",
+		"level": "medium",
 		"filename": "sd.svg"
 	},
 	"152": {
@@ -1610,6 +1610,16 @@
 		"filename": "sr.svg"
 	},
 	"161": {
+		"countryCode": "ss",
+		"nameEn": "South Sudan",
+		"nameGer": "Südsudan",
+		"capitalEn": "Juba",
+		"capitalGer": "Dschuba",
+		"continent": "Africa",
+		"level": "hard",
+		"filename": "ss.svg"
+	},
+	"162": {
 		"countryCode": "st",
 		"nameEn": "São Tomé and Príncipe",
 		"nameGer": "São Tomé und Príncipe",
@@ -1619,7 +1629,7 @@
 		"level": "hard",
 		"filename": "st.svg"
 	},
-	"162": {
+	"163": {
 		"countryCode": "sv",
 		"nameEn": "El Salvador",
 		"nameGer": "El Salvador",
@@ -1629,7 +1639,7 @@
 		"level": "hard",
 		"filename": "sv.svg"
 	},
-	"163": {
+	"164": {
 		"countryCode": "sy",
 		"nameEn": "Syria",
 		"nameGer": "Syrien",
@@ -1639,7 +1649,7 @@
 		"level": "easy",
 		"filename": "sy.svg"
 	},
-	"164": {
+	"165": {
 		"countryCode": "sz",
 		"nameEn": "Eswatini",
 		"nameGer": "Eswatini",
@@ -1649,7 +1659,7 @@
 		"level": "hard",
 		"filename": "sz.svg"
 	},
-	"165": {
+	"166": {
 		"countryCode": "td",
 		"nameEn": "Chad",
 		"nameGer": "Tschad",
@@ -1659,7 +1669,7 @@
 		"level": "medium",
 		"filename": "td.svg"
 	},
-	"166": {
+	"167": {
 		"countryCode": "tg",
 		"nameEn": "Togo",
 		"nameGer": "Togo",
@@ -1669,7 +1679,7 @@
 		"level": "hard",
 		"filename": "tg.svg"
 	},
-	"167": {
+	"168": {
 		"countryCode": "th",
 		"nameEn": "Thailand",
 		"nameGer": "Thailand",
@@ -1679,7 +1689,7 @@
 		"level": "easy",
 		"filename": "th.svg"
 	},
-	"168": {
+	"169": {
 		"countryCode": "tj",
 		"nameEn": "Tajikistan",
 		"nameGer": "Tadschikistan",
@@ -1689,7 +1699,7 @@
 		"level": "hard",
 		"filename": "tj.svg"
 	},
-	"169": {
+	"170": {
 		"countryCode": "tl",
 		"nameEn": "Timor-Leste",
 		"nameGer": "Timor-Leste",
@@ -1699,7 +1709,7 @@
 		"level": "hard",
 		"filename": "tl.svg"
 	},
-	"170": {
+	"171": {
 		"countryCode": "tm",
 		"nameEn": "Turkmenistan",
 		"nameGer": "Turkmenistan",
@@ -1709,7 +1719,7 @@
 		"level": "hard",
 		"filename": "tm.svg"
 	},
-	"171": {
+	"172": {
 		"countryCode": "tn",
 		"nameEn": "Tunisia",
 		"nameGer": "Tunesien",
@@ -1719,7 +1729,7 @@
 		"level": "easy",
 		"filename": "tn.svg"
 	},
-	"172": {
+	"173": {
 		"countryCode": "to",
 		"nameEn": "Tonga",
 		"nameGer": "Tonga",
@@ -1729,7 +1739,7 @@
 		"level": "hard",
 		"filename": "to.svg"
 	},
-	"173": {
+	"174": {
 		"countryCode": "tr",
 		"nameEn": "Turkey",
 		"nameGer": "Türkei",
@@ -1739,7 +1749,7 @@
 		"level": "easy",
 		"filename": "tr.svg"
 	},
-	"174": {
+	"175": {
 		"countryCode": "tt",
 		"nameEn": "Trinidad and Tobago",
 		"nameGer": "Trinidad und Tobago",
@@ -1749,7 +1759,7 @@
 		"level": "hard",
 		"filename": "tt.svg"
 	},
-	"175": {
+	"176": {
 		"countryCode": "tw",
 		"nameEn": "Taiwan",
 		"nameGer": "Taiwan",
@@ -1759,7 +1769,7 @@
 		"level": "medium",
 		"filename": "tw.svg"
 	},
-	"176": {
+	"177": {
 		"countryCode": "tz",
 		"nameEn": "Tanzania",
 		"nameGer": "Tansania",
@@ -1769,7 +1779,7 @@
 		"level": "medium",
 		"filename": "tz.svg"
 	},
-	"177": {
+	"178": {
 		"countryCode": "ua",
 		"nameEn": "Ukraine",
 		"nameGer": "Ukraine",
@@ -1779,7 +1789,7 @@
 		"level": "easy",
 		"filename": "ua.svg"
 	},
-	"178": {
+	"179": {
 		"countryCode": "ug",
 		"nameEn": "Uganda",
 		"nameGer": "Uganda",
@@ -1789,7 +1799,7 @@
 		"level": "medium",
 		"filename": "ug.svg"
 	},
-	"179": {
+	"180": {
 		"countryCode": "us",
 		"nameEn": "United States",
 		"nameGer": "Vereinigte Staaten",
@@ -1799,7 +1809,7 @@
 		"level": "easy",
 		"filename": "us.svg"
 	},
-	"180": {
+	"181": {
 		"countryCode": "uy",
 		"nameEn": "Uruguay",
 		"nameGer": "Uruguay",
@@ -1809,7 +1819,7 @@
 		"level": "medium",
 		"filename": "uy.svg"
 	},
-	"181": {
+	"182": {
 		"countryCode": "uz",
 		"nameEn": "Uzbekistan",
 		"nameGer": "Usbekistan",
@@ -1819,7 +1829,7 @@
 		"level": "hard",
 		"filename": "uz.svg"
 	},
-	"182": {
+	"183": {
 		"countryCode": "va",
 		"nameEn": "Vatican City",
 		"nameGer": "Vatikanstadt",
@@ -1829,7 +1839,7 @@
 		"level": "easy",
 		"filename": "va.svg"
 	},
-	"183": {
+	"184": {
 		"countryCode": "vc",
 		"nameEn": "St Vincent and Grenadines",
 		"nameGer": "St. Vincent und die Grenadinen",
@@ -1839,7 +1849,7 @@
 		"level": "hard",
 		"filename": "vc.svg"
 	},
-	"184": {
+	"185": {
 		"countryCode": "ve",
 		"nameEn": "Venezuela",
 		"nameGer": "Venezuela",
@@ -1849,7 +1859,7 @@
 		"level": "easy",
 		"filename": "ve.svg"
 	},
-	"185": {
+	"186": {
 		"countryCode": "vn",
 		"nameEn": "Vietnam",
 		"nameGer": "Vietnam",
@@ -1859,7 +1869,7 @@
 		"level": "easy",
 		"filename": "vn.svg"
 	},
-	"186": {
+	"187": {
 		"countryCode": "vu",
 		"nameEn": "Vanuatu",
 		"nameGer": "Vanuatu",
@@ -1869,7 +1879,7 @@
 		"level": "hard",
 		"filename": "vu.svg"
 	},
-	"187": {
+	"188": {
 		"countryCode": "ws",
 		"nameEn": "Samoa",
 		"nameGer": "Samoa",
@@ -1879,7 +1889,7 @@
 		"level": "hard",
 		"filename": "ws.svg"
 	},
-	"188": {
+	"189": {
 		"countryCode": "ye",
 		"nameEn": "Yemen",
 		"nameGer": "Jemen",
@@ -1889,7 +1899,7 @@
 		"level": "medium",
 		"filename": "ye.svg"
 	},
-	"189": {
+	"190": {
 		"countryCode": "za",
 		"nameEn": "South Africa",
 		"nameGer": "Südafrika",
@@ -1899,7 +1909,7 @@
 		"level": "easy",
 		"filename": "za.svg"
 	},
-	"190": {
+	"191": {
 		"countryCode": "zm",
 		"nameEn": "Zambia",
 		"nameGer": "Sambia",
@@ -1909,7 +1919,7 @@
 		"level": "medium",
 		"filename": "zm.svg"
 	},
-	"191": {
+	"192": {
 		"countryCode": "zw",
 		"nameEn": "Zimbabwe",
 		"nameGer": "Simbabwe",
