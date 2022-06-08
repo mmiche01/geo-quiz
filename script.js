@@ -86,7 +86,7 @@ function displayQuestion() {
 	let wrongCountry2 = getRandomCountry('wrong', tempExcluded);
 	resetStyles();
 	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
-	svgElement.src = `data/svg/${correctCountry.countryCode}.svg`;
+	svgElement.src = `data/svg/countries/${correctCountry.countryCode}.svg`;
 }
 
 function resetStyles() {
