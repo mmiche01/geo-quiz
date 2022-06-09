@@ -23,6 +23,8 @@ let countriesJsonFiltered;
 let round = 1;
 let points = 0;
 
+document.addEventListener('load', loadData());
+
 continentSelection.addEventListener('change', () => {
 	const label = document.querySelector('.select-level label');
 	if (continentSelection.value !== 'All') {
@@ -52,18 +54,16 @@ answerButtonsAll.forEach((button) => {
 	});
 });
 
-async function startGame(continentSelection, levelSelection) {
-	countriesJson = await getJson('data/countries.json');
+async function loadData() {
+	let response = await fetch('data/countries.json');
+	countriesJson = await response.json();
+}
+
+function startGame(continentSelection, levelSelection) {
 	countriesJsonFiltered = filterJson(continentSelection, levelSelection);
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
 	displayQuestion(countriesJsonFiltered);
-}
-
-async function getJson(url) {
-	let response = await fetch(url);
-	let data = await response.json();
-	return data;
 }
 
 function filterJson(continentSelection, levelSelection) {
