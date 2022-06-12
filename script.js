@@ -1,14 +1,15 @@
+const main = document.querySelector('.container');
 const selectionArea = document.getElementById('section-selection');
 const quizArea = document.getElementById('section-quiz');
-const main = document.getElementsByClassName('container')[0];
 
+const levelDropdown = document.querySelector('.select-level');
 const continentSelection = document.getElementById('country-list');
 const levelSelection = document.getElementById('level-list');
 
 const startButton = document.getElementById('btn-start');
 const nextButton = document.getElementById('btn-next');
 const progressDisplay = document.getElementById('display-progress');
-const progressBar = document.getElementsByTagName('progress')[0];
+const progressBar = document.querySelector('progress');
 
 const answerButtonsAll = document.querySelectorAll('.btn-answer');
 const answerButton1 = document.getElementById('btn-answer-1');
@@ -26,15 +27,24 @@ let points = 0;
 document.addEventListener('load', loadData());
 
 continentSelection.addEventListener('change', () => {
-	const label = document.querySelector('.select-level label');
 	if (continentSelection.value !== 'All') {
-		label.classList.add('disabled');
+		levelDropdown.classList.add('disabled');
 		levelSelection.value = 'all';
 		levelSelection.disabled = true;
 	} else {
-		label.classList.remove('disabled');
+		levelDropdown.classList.remove('disabled');
 		levelSelection.disabled = false;
 	}
+});
+
+levelDropdown.addEventListener('click', () => {
+	const tooltip = document.createElement('p');
+	tooltip.classList.add('tooltip');
+	tooltip.innerText = 'Kombinierte Auswahl nicht möglich';
+	levelDropdown.append(tooltip);
+	setTimeout(() => {
+		tooltip.remove();
+	}, 1500);
 });
 
 startButton.addEventListener('click', () => startGame(continentSelection, levelSelection));

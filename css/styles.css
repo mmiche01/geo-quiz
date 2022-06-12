@@ -234,6 +234,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	position: relative;
 }
 
 .select-level-islands {
@@ -253,6 +254,21 @@ a {
 .select-country select {
 	flex: 0 1 80%;
 	margin-bottom: 2rem;
+}
+
+.tooltip {
+	position: absolute;
+	display: block;
+	padding: 0.5rem;
+	border: 1px solid var(--dark-olive-green);
+	text-align: center;
+	width: 7rem;
+	background-color: white;
+	color: var(--dark-olive-green);
+	left: 50%;
+	transform: translateX(-50%);
+	top: -100%;
+	border-radius: 0.5rem;
 }
 
 .btn-start,
@@ -437,6 +453,10 @@ progress {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
+	}
+
+	.tooltip {
+		top: -150%;
 	}
 }
 
