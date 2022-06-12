@@ -228,7 +228,6 @@ a {
 }
 
 .select-level,
-.select-level-islands,
 .select-country {
 	flex: 0 1 45%;
 	display: flex;
@@ -237,12 +236,7 @@ a {
 	position: relative;
 }
 
-.select-level-islands {
-	flex: 0 1 100%;
-}
-
 .select-level label,
-.select-level-islands label,
 .select-country label {
 	flex: 1 1 100%;
 	text-align: center;
@@ -250,7 +244,6 @@ a {
 }
 
 .select-level select,
-.select-level-islands select,
 .select-country select {
 	flex: 0 1 80%;
 	margin-bottom: 2rem;
