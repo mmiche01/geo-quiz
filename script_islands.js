@@ -5,13 +5,14 @@ const heading = document.createElement('h1');
 const islands = [
 	'Mallorca',
 	'Lesbos',
-	'Euboia',
+	'Euboea',
 	'Corfu',
 	'Teneriffa',
 	'Fuerteventura',
 	'Iceland',
 	'Malta',
-	'Hokkaido',
+	// 'Hokkaido',
+	'Sumatra',
 ];
 
 selection.classList.add('hidden');
