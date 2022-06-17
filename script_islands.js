@@ -11,6 +11,7 @@ const islands = [
 	'Fuerteventura',
 	'Iceland',
 	'Malta',
+	'Hokkaido',
 ];
 
 selection.classList.add('hidden');
