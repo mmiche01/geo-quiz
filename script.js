@@ -2,9 +2,9 @@ const main = document.querySelector('.container');
 const selectionArea = document.getElementById('section-selection');
 const quizArea = document.getElementById('section-quiz');
 
-const levelDropdown = document.querySelector('.select-level');
-const continentSelection = document.getElementById('country-list');
-const levelSelection = document.getElementById('level-list');
+const levelDropdown = document.querySelector('#select-level');
+const geoSelection = document.querySelector('.geo-param-list');
+const levelSelection = document.querySelector('#level-list');
 
 const startButton = document.getElementById('btn-start');
 const nextButton = document.getElementById('btn-next');
@@ -17,17 +17,19 @@ const answerButton2 = document.getElementById('btn-answer-2');
 const answerButton3 = document.getElementById('btn-answer-3');
 
 let usedCountries = {};
+let usedIslands = {};
 
 let countriesJson;
-let countriesJsonFiltered;
+let islandsJson;
+let filteredJson;
 
 let round = 1;
 let points = 0;
 
 document.addEventListener('load', loadData());
 
-continentSelection.addEventListener('change', () => {
-	if (continentSelection.value !== 'All') {
+geoSelection.addEventListener('change', () => {
+	if (geoSelection.value !== 'All') {
 		levelDropdown.classList.add('disabled');
 		levelSelection.value = 'all';
 		levelSelection.disabled = true;
@@ -38,6 +40,9 @@ continentSelection.addEventListener('change', () => {
 });
 
 levelDropdown.addEventListener('click', () => {
+	if (!levelDropdown.classList.contains('disabled')) {
+		return;
+	}
 	const tooltip = document.createElement('p');
 	tooltip.classList.add('tooltip');
 	tooltip.innerText = 'Kombinierte Auswahl nicht möglich';
@@ -47,7 +52,7 @@ levelDropdown.addEventListener('click', () => {
 	}, 1500);
 });
 
-startButton.addEventListener('click', () => startGame(continentSelection, levelSelection));
+startButton.addEventListener('click', () => startGame(geoSelection, levelSelection));
 
 nextButton.addEventListener('click', () => {
 	round++;
@@ -70,10 +75,10 @@ async function loadData() {
 }
 
 function startGame(continentSelection, levelSelection) {
-	countriesJsonFiltered = filterJson(continentSelection, levelSelection);
+	filteredJson = filterJson(continentSelection, levelSelection);
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
-	displayQuestion(countriesJsonFiltered);
+	displayQuestion(filteredJson);
 }
 
 function filterJson(continentSelection, levelSelection) {
@@ -111,7 +116,7 @@ function resetStyles() {
 
 function getRandomCountry(param, tempExcluded) {
 	let random = getRandomNumber(tempExcluded);
-	let randomCountry = countriesJsonFiltered[random];
+	let randomCountry = filteredJson[random];
 	if (param === 'correct') {
 		usedCountries[random] = randomCountry;
 	}
@@ -122,7 +127,7 @@ function getRandomCountry(param, tempExcluded) {
 function getRandomNumber(tempExcluded) {
 	const countEntries = Object.keys(countriesJson).length;
 	let random = Math.floor(Math.random() * countEntries);
-	if (random in usedCountries || !countriesJsonFiltered[random] || tempExcluded.includes(random)) {
+	if (random in usedCountries || !filteredJson[random] || tempExcluded.includes(random)) {
 		return getRandomNumber(tempExcluded);
 	} else {
 		return random;
@@ -185,7 +190,7 @@ function gameFinished() {
 
 	playAgainButton.addEventListener('click', () => {
 		resetGame(resultArea);
-		startGame(continentSelection, levelSelection);
+		startGame(geoSelection, levelSelection);
 	});
 
 	backToStartButton.addEventListener('click', () => {
