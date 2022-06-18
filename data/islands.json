@@ -1,0 +1,546 @@
+{
+	"0": {
+		"nameEn": "Alexander Island",
+		"nameGer": "Alexander-I.-Insel",
+		"waters": "Bellingshausensee",
+		"areaInKm2": 49070,
+		"state": "kein (Antarktis)",
+		"filename": "Alexander_Island.svg"
+	},
+	"1": {
+		"nameEn": "Axel Heiberg Island",
+		"nameGer": "Axel Heiberg Island",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 43178,
+		"state": "Kanada",
+		"filename": "Axel_Heiberg_Island.svg"
+	},
+	"2": {
+		"nameEn": "Baffin Island",
+		"nameGer": "Baffininsel",
+		"waters": "Nordatlantik/Arktischer Ozean",
+		"areaInKm2": 507451,
+		"state": "Kanada",
+		"filename": "Baffin_Island.svg"
+	},
+	"3": {
+		"nameEn": "Bali",
+		"nameGer": "Bali",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 5561,
+		"state": "Indonesien",
+		"filename": "Bali.svg"
+	},
+	"4": {
+		"nameEn": "Banks Island",
+		"nameGer": "Banksinsel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 70028,
+		"state": "Kanada",
+		"filename": "Banks_Island.svg"
+	},
+	"5": {
+		"nameEn": "Borneo",
+		"nameGer": "Borneo",
+		"waters": "Westpazifik",
+		"areaInKm2": 743330,
+		"state": "Indonesien/Malaysia/Brunei",
+		"filename": "Borneo.svg"
+	},
+	"6": {
+		"nameEn": "Christmas Island",
+		"nameGer": "Weihnachtsinsel",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 135,
+		"state": "Australien",
+		"filename": "Christmas_Island.svg"
+	},
+	"7": {
+		"nameEn": "Corfu",
+		"nameGer": "Korfu",
+		"waters": "Mittelmeer",
+		"areaInKm2": 585,
+		"state": "Griechenland",
+		"filename": "Corfu.svg"
+	},
+	"8": {
+		"nameEn": "Corsica",
+		"nameGer": "Korsika",
+		"waters": "Mittelmeer",
+		"areaInKm2": 8681,
+		"state": "Frankreich",
+		"filename": "Corsica.svg"
+	},
+	"9": {
+		"nameEn": "Crete",
+		"nameGer": "Kreta",
+		"waters": "Mittelmeer",
+		"areaInKm2": 8261,
+		"state": "Griechenland",
+		"filename": "Crete.svg"
+	},
+	"10": {
+		"nameEn": "Cuba",
+		"nameGer": "Kuba",
+		"waters": "Karibisches Meer",
+		"areaInKm2": 104556,
+		"state": "Kuba",
+		"filename": "Cuba.svg"
+	},
+	"11": {
+		"nameEn": "Curaçao",
+		"nameGer": "Curaçao",
+		"waters": "Karibisches Meer",
+		"areaInKm2": 444,
+		"state": "Niederlande",
+		"filename": "Curacao.svg"
+	},
+	"12": {
+		"nameEn": "Cyprus",
+		"nameGer": "Zypern",
+		"waters": "Mittelmeer",
+		"areaInKm2": 9251,
+		"state": "Republik Zypern",
+		"filename": "Cyprus.svg"
+	},
+	"13": {
+		"nameEn": "Devon Island",
+		"nameGer": "Devon Island",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 55247,
+		"state": "Kanada",
+		"filename": "Devon_Island.svg"
+	},
+	"14": {
+		"nameEn": "Elba",
+		"nameGer": "Elba",
+		"waters": "Mittelmeer",
+		"areaInKm2": 224,
+		"state": "Italien",
+		"filename": "Elba.svg"
+	},
+	"15": {
+		"nameEn": "Ellesmere Island",
+		"nameGer": "Ellesmere-Insel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 196236,
+		"state": "Kanada",
+		"filename": "Ellesmere_Island.svg"
+	},
+	"16": {
+		"nameEn": "Euboea",
+		"nameGer": "Euböa",
+		"waters": "Mittelmeer",
+		"areaInKm2": 3670,
+		"state": "Griechenland",
+		"filename": "Euboea.svg"
+	},
+	"17": {
+		"nameEn": "Grande Terre (New Caledonia",
+		"nameGer": "Grande Terre (Neukaledonien)",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 16664,
+		"state": "Frankreich",
+		"filename": "Grande_Terre.svg"
+	},
+	"18": {
+		"nameEn": "Great Britain",
+		"nameGer": "Großbritannien",
+		"waters": "Nordatlantik",
+		"areaInKm2": 216777,
+		"state": "Vereinigtes Königreich",
+		"filename": "Great_Britain.svg"
+	},
+	"19": {
+		"nameEn": "Greenland",
+		"nameGer": "Grönland",
+		"waters": "Nordatlantik/Arktischer Ozean",
+		"areaInKm2": 2130800,
+		"state": "Dänemark (Grönland)",
+		"filename": "Greenland.svg"
+	},
+	"20": {
+		"nameEn": "Hainan",
+		"nameGer": "Hainan",
+		"waters": "Südchinesisches Meer",
+		"areaInKm2": 33210,
+		"state": "Volksrepublik China",
+		"filename": "Hainan.svg"
+	},
+	"21": {
+		"nameEn": "Hawaii",
+		"nameGer": "Hawaii",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 10432,
+		"state": "USA",
+		"filename": "Hawaii.svg"
+	},
+	"22": {
+		"nameEn": "Hispaniola",
+		"nameGer": "Hispaniola",
+		"waters": "Karibisches Meer",
+		"areaInKm2": 73929,
+		"state": "Dominikanische Republik/Haiti",
+		"filename": "Hispaniola.svg"
+	},
+	"23": {
+		"nameEn": "Hokkaido",
+		"nameGer": "Hokkaido",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 77981,
+		"state": "Japan",
+		"filename": "Hokkaido.svg"
+	},
+	"24": {
+		"nameEn": "Honshu",
+		"nameGer": "Honshu",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 227962,
+		"state": "Japan",
+		"filename": "Honshu.svg"
+	},
+	"25": {
+		"nameEn": "Iceland",
+		"nameGer": "Island",
+		"waters": "Nordatlantik",
+		"areaInKm2": 102819,
+		"state": "Island",
+		"filename": "Iceland.svg"
+	},
+	"26": {
+		"nameEn": "Ireland",
+		"nameGer": "Irland",
+		"waters": "Nordatlantik",
+		"areaInKm2": 84421,
+		"state": "Irland/Vereinigtes Königreich",
+		"filename": "Ireland.svg"
+	},
+	"27": {
+		"nameEn": "Jamaica",
+		"nameGer": "Jamaika",
+		"waters": "Karibisches Meer",
+		"areaInKm2": 10991,
+		"state": "Jamaika",
+		"filename": "Jamaica.svg"
+	},
+	"28": {
+		"nameEn": "Java",
+		"nameGer": "Java",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 126650,
+		"state": "Indonesien",
+		"filename": "Java.svg"
+	},
+	"29": {
+		"nameEn": "Kotelny Island",
+		"nameGer": "Kotelny-Insel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 23165,
+		"state": "Russland",
+		"filename": "Kotelny_Island.svg"
+	},
+	"30": {
+		"nameEn": "Kyushu",
+		"nameGer": "Kyushu",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 36737,
+		"state": "Japan",
+		"filename": "Kyushu.svg"
+	},
+	"31": {
+		"nameEn": "Lesbos",
+		"nameGer": "Lesbos",
+		"waters": "Mittelmeer",
+		"areaInKm2": 1636,
+		"state": "Griechenland",
+		"filename": "Lesbos.svg"
+	},
+	"32": {
+		"nameEn": "Luzon",
+		"nameGer": "Luzon",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 104688,
+		"state": "Philippinen",
+		"filename": "Luzon.svg"
+	},
+	"33": {
+		"nameEn": "Madagascar",
+		"nameGer": "Madagaskar",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 586427,
+		"state": "Madagaskar",
+		"filename": "Madagascar.svg"
+	},
+	"34": {
+		"nameEn": "Mallorca",
+		"nameGer": "Mallorca",
+		"waters": "Mittelmeer",
+		"areaInKm2": 3604,
+		"state": "Spanien",
+		"filename": "Mallorca.svg"
+	},
+	"35": {
+		"nameEn": "Malta",
+		"nameGer": "Malta",
+		"waters": "Mittelmeer",
+		"areaInKm2": 246,
+		"state": "Malta",
+		"filename": "Malta.svg"
+	},
+	"36": {
+		"nameEn": "Martinique",
+		"nameGer": "Martinique",
+		"waters": "Karibisches Meer",
+		"areaInKm2": 1108,
+		"state": "Frankreich",
+		"filename": "Martinique.svg"
+	},
+	"37": {
+		"nameEn": "Mauritius",
+		"nameGer": "Mauritius",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 1873,
+		"state": "Mauritius",
+		"filename": "Mauritius.svg"
+	},
+	"38": {
+		"nameEn": "Melville Island",
+		"nameGer": "Melville-Insel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 42149,
+		"state": "Kanada",
+		"filename": "Melville_Island.svg"
+	},
+	"39": {
+		"nameEn": "Mindanao",
+		"nameGer": "Mindanao",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 94630,
+		"state": "Philippinen",
+		"filename": "Mindanao.svg"
+	},
+	"40": {
+		"nameEn": "New Britain",
+		"nameGer": "Neubritannien",
+		"waters": "Südwestpazifik",
+		"areaInKm2": 35145,
+		"state": "Papua-Neuguinea",
+		"filename": "New_Britain.svg"
+	},
+	"41": {
+		"nameEn": "New Guinea",
+		"nameGer": "Neuguinea",
+		"waters": "Südwestpazifik",
+		"areaInKm2": 785753,
+		"state": "Indonesien/Papua-Neuguinea",
+		"filename": "New_Guinea.svg"
+	},
+	"42": {
+		"nameEn": "New Zealand (North Island)",
+		"nameGer": "Neuseeland (Nordinsel)",
+		"waters": "Südpazifik",
+		"areaInKm2": 113729,
+		"state": "Neuseeland",
+		"filename": "North_Island.svg"
+	},
+	"43": {
+		"nameEn": "New Zealand (South Island)",
+		"nameGer": "Neuseeland (Südinsel)",
+		"waters": "Südpazifik",
+		"areaInKm2": 151215,
+		"state": "Neuseeland",
+		"filename": "South_Island.svg"
+	},
+	"44": {
+		"nameEn": "Newfoundland",
+		"nameGer": "Neufundland",
+		"waters": "Nordatlantik",
+		"areaInKm2": 108860,
+		"state": "Kanada",
+		"filename": "Newfoundland.svg"
+	},
+	"45": {
+		"nameEn": "Novaya Zemlya",
+		"nameGer": "Nowaja Semlja",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 48904,
+		"state": "Russland",
+		"filename": "Novaya_Zemlya.svg"
+	},
+	"46": {
+		"nameEn": "Prince of Wales Island",
+		"nameGer": "Prince-of-Wales-Insel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 33339,
+		"state": "Kanada",
+		"filename": "Prince_of_Wales_Island.svg"
+	},
+	"47": {
+		"nameEn": "Puerto Rico",
+		"nameGer": "Puerto Rico",
+		"waters": "Karibisches Meer",
+		"areaInKm2": 8710,
+		"state": "USA",
+		"filename": "Puerto_Rico.svg"
+	},
+	"48": {
+		"nameEn": "Rhodos",
+		"nameGer": "Rhodos",
+		"waters": "Mittelmeer",
+		"areaInKm2": 1400,
+		"state": "Griechenland",
+		"filename": "Rhodos.svg"
+	},
+	"49": {
+		"nameEn": "Sachalin",
+		"nameGer": "Sachalin",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 72493,
+		"state": "Russland",
+		"filename": "Sachalin.svg"
+	},
+	"50": {
+		"nameEn": "Sardinia",
+		"nameGer": "Sardinien",
+		"waters": "Mittelmeer",
+		"areaInKm2": 23813,
+		"state": "Italien",
+		"filename": "Sardinia.svg"
+	},
+	"51": {
+		"nameEn": "Shikoku",
+		"nameGer": "Shikoku",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 18299,
+		"state": "Japan",
+		"filename": "Shikoku.svg"
+	},
+	"52": {
+		"nameEn": "Sicily",
+		"nameGer": "Sizilien",
+		"waters": "Mittelmeer",
+		"areaInKm2": 25426,
+		"state": "Italien",
+		"filename": "Sicily.svg"
+	},
+	"53": {
+		"nameEn": "Singapore Island",
+		"nameGer": "Singapur (Hauptinsel)",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 710,
+		"state": "Singapur",
+		"filename": "Singapore_Island.svg"
+	},
+	"54": {
+		"nameEn": "Somerset Island",
+		"nameGer": "Somerset-Insel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 24786,
+		"state": "Kanada",
+		"filename": "Somerset_Island.svg"
+	},
+	"55": {
+		"nameEn": "South Georgia",
+		"nameGer": "Südgeorgien",
+		"waters": "Südatlantik",
+		"areaInKm2": 3518,
+		"state": "Südgeorgien und die \nSüdlichen Sandwichinseln",
+		"filename": "South_Georgia.svg"
+	},
+	"56": {
+		"nameEn": "Southampton Island",
+		"nameGer": "Southampton Island",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 41214,
+		"state": "Kanada",
+		"filename": "Southampton_Island.svg"
+	},
+	"57": {
+		"nameEn": "Spitsbergen",
+		"nameGer": "Spitzbergen",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 37673,
+		"state": "Norwegen",
+		"filename": "Spitsbergen_Spitsbergen.svg"
+	},
+	"58": {
+		"nameEn": "Sri Lanka",
+		"nameGer": "Sri Lanka",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 65268,
+		"state": "Sri Lanka",
+		"filename": "Sri_Lanka.svg"
+	},
+	"59": {
+		"nameEn": "Sulawesi",
+		"nameGer": "Sulawesi",
+		"waters": "Westpazifik",
+		"areaInKm2": 174600,
+		"state": "Indonesien",
+		"filename": "Sulawesi.svg"
+	},
+	"60": {
+		"nameEn": "Sumatra",
+		"nameGer": "Sumatra",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 443066,
+		"state": "Indonesien",
+		"filename": "Sumatra.svg"
+	},
+	"61": {
+		"nameEn": "Taiwan",
+		"nameGer": "Taiwan",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 35801,
+		"state": "Republik China (Taiwan)",
+		"filename": "Taiwan.svg"
+	},
+	"62": {
+		"nameEn": "Tasmania",
+		"nameGer": "Tasmanien",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 64519,
+		"state": "Australien",
+		"filename": "Tasmania.svg"
+	},
+	"63": {
+		"nameEn": "Tenerife",
+		"nameGer": "Teneriffa",
+		"waters": "Atlantischer Ozean",
+		"areaInKm2": 2034,
+		"state": "Spanien",
+		"filename": "Tenerife.svg"
+	},
+	"64": {
+		"nameEn": "Tierra del Fuego",
+		"nameGer": "Feuerland",
+		"waters": "Südatlantik",
+		"areaInKm2": 47992,
+		"state": "Argentinien/Chile",
+		"filename": "Tierra_Fuego.svg"
+	},
+	"65": {
+		"nameEn": "Timor",
+		"nameGer": "Timor",
+		"waters": "Indischer Ozean",
+		"areaInKm2": 28418,
+		"state": "Indonesien/Osttimor",
+		"filename": "Timor.svg"
+	},
+	"66": {
+		"nameEn": "Vancouver Island",
+		"nameGer": "Vancouver Island",
+		"waters": "Pazifischer Ozean",
+		"areaInKm2": 31285,
+		"state": "Kanada",
+		"filename": "Vancouver_Island.svg"
+	},
+	"67": {
+		"nameEn": "Victoria Island",
+		"nameGer": "Victoria-Insel",
+		"waters": "Arktischer Ozean",
+		"areaInKm2": 217291,
+		"state": "Kanada",
+		"filename": "Victoria_Island.svg"
+	}
+}
