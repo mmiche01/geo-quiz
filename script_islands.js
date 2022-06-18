@@ -8,7 +8,6 @@ const islands = [
 	'Euboea',
 	'Corfu',
 	'Teneriffa',
-	'Fuerteventura',
 	'Iceland',
 	'Malta',
 	'Alexander_Island',
