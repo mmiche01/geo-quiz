@@ -341,7 +341,7 @@
 		"waters": "Südpazifik",
 		"areaInKm2": 113729,
 		"state": "Neuseeland",
-		"filename": "North_Island.svg"
+		"filename": "New_Zealand_North.svg"
 	},
 	"43": {
 		"nameEn": "New Zealand (South Island)",
@@ -349,7 +349,7 @@
 		"waters": "Südpazifik",
 		"areaInKm2": 151215,
 		"state": "Neuseeland",
-		"filename": "South_Island.svg"
+		"filename": "New_Zealand_South.svg"
 	},
 	"44": {
 		"nameEn": "Newfoundland",
