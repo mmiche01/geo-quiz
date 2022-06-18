@@ -471,7 +471,8 @@ progress {
 
 .svg {
 	width: 20rem;
-	padding: 1rem;
+	/* padding: 1rem; */
+	border: 1px solid red;
 }
 
 .svg > * {
