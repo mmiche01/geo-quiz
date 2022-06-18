@@ -227,8 +227,7 @@ a {
 	justify-content: center;
 }
 
-.select-level,
-.select-country {
+.quiz-params {
 	flex: 0 1 45%;
 	display: flex;
 	flex-wrap: wrap;
@@ -236,15 +235,13 @@ a {
 	position: relative;
 }
 
-.select-level label,
-.select-country label {
+.quiz-params label {
 	flex: 1 1 100%;
 	text-align: center;
 	margin-bottom: 0.2rem;
 }
 
-.select-level select,
-.select-country select {
+.quiz-params select {
 	flex: 0 1 80%;
 	margin-bottom: 2rem;
 }

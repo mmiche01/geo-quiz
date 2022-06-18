@@ -21,7 +21,7 @@
 			href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic"
 			rel="stylesheet"
 		/>
-		<script defer src="script_islands.js"></script>
+		<script defer src="script.js"></script>
 	</head>
 	<body>
 		<div id="page-content">
@@ -36,10 +36,20 @@
 				</nav>
 			</header>
 			<main class="container">
-				<section id="section-selection" class="section section-selection">
-					<div class="select-level">
+				<section id="section-selection" class="section-selection">
+					<div id="select-area" class="quiz-params">
+						<label for="islands">Größe</label>
+						<select id="island-list" class="geo-param-list">
+							<option value="All">Alle</option>
+							<option value="small">Klein</option>
+							<option value="medium">Mittel</option>
+							<option value="big">Groß</option>
+						</select>
+					</div>
+					<div id="select-level" class="quiz-params">
 						<label for="levels">Schwierigkeit</label>
 						<select id="level-list">
+							<option value="all">Alle</option>
 							<option value="easy">Einfach</option>
 							<option value="medium">Mittel</option>
 							<option value="hard">Schwierig</option>
@@ -47,7 +57,7 @@
 					</div>
 					<button id="btn-start" class="btn btn-start">Start</button>
 				</section>
-				<section id="section-quiz" class="section section-quiz hidden">
+				<section id="section-quiz" class="section-quiz hidden">
 					<div id="quiz-content">
 						<div id="image-container">
 							<img id="island-svg" src="" alt="" />

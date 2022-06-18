@@ -36,10 +36,10 @@
 				</nav>
 			</header>
 			<main class="container">
-				<section id="section-selection" class="section section-selection">
-					<div class="select-country">
+				<section id="section-selection" class="section-selection">
+					<div id="select-continent" class="quiz-params">
 						<label for="countries">Bereich</label>
-						<select id="country-list">
+						<select id="country-list" class="geo-param-list">
 							<option value="All">Alle</option>
 							<option value="Africa">Afrika</option>
 							<option value="Asia">Asien</option>
@@ -49,7 +49,7 @@
 							<option value="South America">Südamerika</option>
 						</select>
 					</div>
-					<div class="select-level">
+					<div id="select-level" class="quiz-params">
 						<label for="levels">Schwierigkeit</label>
 						<select id="level-list">
 							<option value="all">Alle</option>
@@ -60,7 +60,7 @@
 					</div>
 					<button id="btn-start" class="btn btn-start">Start</button>
 				</section>
-				<section id="section-quiz" class="section section-quiz hidden">
+				<section id="section-quiz" class="section-quiz hidden">
 					<div id="quiz-content">
 						<div id="image-container">
 							<img id="country-svg" src="" alt="" />
