@@ -1,70 +1,70 @@
-﻿nameEn;nameGer;waters;areaInKm2;state;filename
-Alexander Island;Alexander-I.-Insel;Bellingshausensee;49070;kein (Antarktis);Alexander_Island.svg
-Axel Heiberg Island;Axel Heiberg Island;Arktischer Ozean;43178;Kanada;Axel_Heiberg_Island.svg
-Baffin Island;Baffininsel;Nordatlantik/Arktischer Ozean;507451;Kanada;Baffin_Island.svg
-Bali;Bali;Indischer Ozean;5561;Indonesien;Bali.svg
-Banks Island;Banksinsel;Arktischer Ozean;70028;Kanada;Banks_Island.svg
-Borneo;Borneo;Westpazifik;743330;Indonesien/Malaysia/Brunei;Borneo.svg
-Christmas Island;Weihnachtsinsel;Indischer Ozean;135;Australien;Christmas_Island.svg
-Corfu;Korfu;Mittelmeer;585;Griechenland;Corfu.svg
-Corsica;Korsika;Mittelmeer;8681;Frankreich;Corsica.svg
-Crete;Kreta;Mittelmeer;8261;Griechenland;Crete.svg
-Cuba;Kuba;Karibisches Meer;104556;Kuba;Cuba.svg
-Curaçao;Curaçao;Karibisches Meer;444;Niederlande;Curacao.svg
-Cyprus;Zypern;Mittelmeer;9251;Republik Zypern;Cyprus.svg
-Devon Island;Devon Island;Arktischer Ozean;55247;Kanada;Devon_Island.svg
-Elba;Elba;Mittelmeer;224;Italien;Elba.svg
-Ellesmere Island;Ellesmere-Insel;Arktischer Ozean;196236;Kanada;Ellesmere_Island.svg
-Euboea;Euböa;Mittelmeer;3670;Griechenland;Euboea.svg
-Grande Terre (New Caledonia;Grande Terre (Neukaledonien);Pazifischer Ozean;16664;Frankreich;Grande_Terre.svg
-Great Britain;Großbritannien;Nordatlantik;216777;Vereinigtes Königreich;Great_Britain.svg
-Greenland;Grönland;Nordatlantik/Arktischer Ozean;2130800;Dänemark (Grönland);Greenland.svg
-Hainan;Hainan;Südchinesisches Meer;33210;Volksrepublik China;Hainan.svg
-Hawaii;Hawaii;Pazifischer Ozean;10432;USA;Hawaii.svg
-Hispaniola;Hispaniola;Karibisches Meer;73929;Dominikanische Republik/Haiti;Hispaniola.svg
-Hokkaido;Hokkaido;Pazifischer Ozean;77981;Japan;Hokkaido.svg
-Honshu;Honshu;Pazifischer Ozean;227962;Japan;Honshu.svg
-Iceland;Island;Nordatlantik;102819;Island;Iceland.svg
-Ireland;Irland;Nordatlantik;84421;Irland/Vereinigtes Königreich;Ireland.svg
-Jamaica;Jamaika;Karibisches Meer;10991;Jamaika;Jamaica.svg
-Java;Java;Indischer Ozean;126650;Indonesien;Java.svg
-Kotelny Island;Kotelny-Insel;Arktischer Ozean;23165;Russland;Kotelny_Island.svg
-Kyushu;Kyushu;Pazifischer Ozean;36737;Japan;Kyushu.svg
-Lesbos;Lesbos;Mittelmeer;1636;Griechenland;Lesbos.svg
-Luzon;Luzon;Pazifischer Ozean;104688;Philippinen;Luzon.svg
-Madagascar;Madagaskar;Indischer Ozean;586427;Madagaskar;Madagascar.svg
-Mallorca;Mallorca;Mittelmeer;3604;Spanien;Mallorca.svg
-Malta;Malta;Mittelmeer;246;Malta;Malta.svg
-Martinique;Martinique;Karibisches Meer;1108;Frankreich;Martinique.svg
-Mauritius;Mauritius;Indischer Ozean;1873;Mauritius;Mauritius.svg
-Melville Island;Melville-Insel;Arktischer Ozean;42149;Kanada;Melville_Island.svg
-Mindanao;Mindanao;Pazifischer Ozean;94630;Philippinen;Mindanao.svg
-New Britain;Neubritannien;Südwestpazifik;35145;Papua-Neuguinea;New_Britain.svg
-New Guinea;Neuguinea;Südwestpazifik;785753;Indonesien/Papua-Neuguinea;New_Guinea.svg
-New Zealand (North Island);Neuseeland (Nordinsel);Südpazifik;113729;Neuseeland;New_Zealand_North.svg
-New Zealand (South Island);Neuseeland (Südinsel);Südpazifik;151215;Neuseeland;New_Zealand_South.svg
-Newfoundland;Neufundland;Nordatlantik;108860;Kanada;Newfoundland.svg
-Novaya Zemlya;Nowaja Semlja;Arktischer Ozean;48904;Russland;Novaya_Zemlya.svg
-Prince of Wales Island;Prince-of-Wales-Insel;Arktischer Ozean;33339;Kanada;Prince_of_Wales_Island.svg
-Puerto Rico;Puerto Rico;Karibisches Meer;8710;USA;Puerto_Rico.svg
-Rhodos;Rhodos;Mittelmeer;1400;Griechenland;Rhodos.svg
-Sachalin;Sachalin;Pazifischer Ozean;72493;Russland;Sachalin.svg
-Sardinia;Sardinien;Mittelmeer;23813;Italien;Sardinia.svg
-Shikoku;Shikoku;Pazifischer Ozean;18299;Japan;Shikoku.svg
-Sicily;Sizilien;Mittelmeer;25426;Italien;Sicily.svg
-Singapore Island;Singapur (Hauptinsel);Indischer Ozean;710;Singapur;Singapore_Island.svg
-Somerset Island;Somerset-Insel;Arktischer Ozean;24786;Kanada;Somerset_Island.svg
+﻿nameEn;nameGer;waters;areaInKm2;state;level;filename
+Alexander Island;Alexander-I.-Insel;Bellingshausensee;49070;kein (Antarktis);hard;Alexander_Island.svg
+Axel Heiberg Island;Axel Heiberg Island;Arktischer Ozean;43178;Kanada;hard;Axel_Heiberg_Island.svg
+Baffin Island;Baffininsel;Nordatlantik/Arktischer Ozean;507451;Kanada;medium;Baffin_Island.svg
+Bali;Bali;Indischer Ozean;5561;Indonesien;medium;Bali.svg
+Banks Island;Banksinsel;Arktischer Ozean;70028;Kanada;hard;Banks_Island.svg
+Borneo;Borneo;Westpazifik;743330;Indonesien/Malaysia/Brunei;easy;Borneo.svg
+Christmas Island;Weihnachtsinsel;Indischer Ozean;135;Australien;hard;Christmas_Island.svg
+Corfu;Korfu;Mittelmeer;585;Griechenland;medium;Corfu.svg
+Corsica;Korsika;Mittelmeer;8681;Frankreich;easy;Corsica.svg
+Crete;Kreta;Mittelmeer;8261;Griechenland;easy;Crete.svg
+Cuba;Kuba;Karibisches Meer;104556;Kuba;easy;Cuba.svg
+Curaçao;Curaçao;Karibisches Meer;444;Niederlande;hard;Curacao.svg
+Cyprus;Zypern;Mittelmeer;9251;Republik Zypern;easy;Cyprus.svg
+Devon Island;Devon Island;Arktischer Ozean;55247;Kanada;hard;Devon_Island.svg
+Elba;Elba;Mittelmeer;224;Italien;medium;Elba.svg
+Ellesmere Island;Ellesmere-Insel;Arktischer Ozean;196236;Kanada;medium;Ellesmere_Island.svg
+Euboea;Euböa;Mittelmeer;3670;Griechenland;medium;Euboea.svg
+Grande Terre (New Caledonia;Grande Terre (Neukaledonien);Pazifischer Ozean;16664;Frankreich;hard;Grande_Terre.svg
+Great Britain;Großbritannien;Nordatlantik;216777;Vereinigtes Königreich;easy;Great_Britain.svg
+Greenland;Grönland;Nordatlantik/Arktischer Ozean;2130800;Dänemark (Grönland);easy;Greenland.svg
+Hainan;Hainan;Südchinesisches Meer;33210;Volksrepublik China;medium;Hainan.svg
+Hawaii;Hawaii;Pazifischer Ozean;10432;USA;medium;Hawaii.svg
+Hispaniola;Hispaniola;Karibisches Meer;73929;Dominikanische Republik/Haiti;easy;Hispaniola.svg
+Hokkaido;Hokkaido;Pazifischer Ozean;77981;Japan;medium;Hokkaido.svg
+Honshu;Honshu;Pazifischer Ozean;227962;Japan;easy;Honshu.svg
+Iceland;Island;Nordatlantik;102819;Island;easy;Iceland.svg
+Ireland;Irland;Nordatlantik;84421;Irland/Vereinigtes Königreich;easy;Ireland.svg
+Jamaica;Jamaika;Karibisches Meer;10991;Jamaika;medium;Jamaica.svg
+Java;Java;Indischer Ozean;126650;Indonesien;medium;Java.svg
+Kotelny Island;Kotelny-Insel;Arktischer Ozean;23165;Russland;hard;Kotelny_Island.svg
+Kyushu;Kyushu;Pazifischer Ozean;36737;Japan;hard;Kyushu.svg
+Lesbos;Lesbos;Mittelmeer;1636;Griechenland;medium;Lesbos.svg
+Luzon;Luzon;Pazifischer Ozean;104688;Philippinen;hard;Luzon.svg
+Madagascar;Madagaskar;Indischer Ozean;586427;Madagaskar;easy;Madagascar.svg
+Mallorca;Mallorca;Mittelmeer;3604;Spanien;medium;Mallorca.svg
+Malta;Malta;Mittelmeer;246;Malta;medium;Malta.svg
+Martinique;Martinique;Karibisches Meer;1108;Frankreich;hard;Martinique.svg
+Mauritius;Mauritius;Indischer Ozean;1873;Mauritius;hard;Mauritius.svg
+Melville Island;Melville-Insel;Arktischer Ozean;42149;Kanada;hard;Melville_Island.svg
+Mindanao;Mindanao;Pazifischer Ozean;94630;Philippinen;hard;Mindanao.svg
+New Britain;Neubritannien;Südwestpazifik;35145;Papua-Neuguinea;hard;New_Britain.svg
+New Guinea;Neuguinea;Südwestpazifik;785753;Indonesien/Papua-Neuguinea;easy;New_Guinea.svg
+New Zealand (North Island);Neuseeland (Nordinsel);Südpazifik;113729;Neuseeland;easy;New_Zealand_North.svg
+New Zealand (South Island);Neuseeland (Südinsel);Südpazifik;151215;Neuseeland;easy;New_Zealand_South.svg
+Newfoundland;Neufundland;Nordatlantik;108860;Kanada;medium;Newfoundland.svg
+Novaya Zemlya;Nowaja Semlja;Arktischer Ozean;48904;Russland;medium;Novaya_Zemlya.svg
+Prince of Wales Island;Prince-of-Wales-Insel;Arktischer Ozean;33339;Kanada;hard;Prince_of_Wales_Island.svg
+Puerto Rico;Puerto Rico;Karibisches Meer;8710;USA;hard;Puerto_Rico.svg
+Rhodos;Rhodos;Mittelmeer;1400;Griechenland;medium;Rhodos.svg
+Sachalin;Sachalin;Pazifischer Ozean;72493;Russland;hard;Sachalin.svg
+Sardinia;Sardinien;Mittelmeer;23813;Italien;easy;Sardinia.svg
+Shikoku;Shikoku;Pazifischer Ozean;18299;Japan;hard;Shikoku.svg
+Sicily;Sizilien;Mittelmeer;25426;Italien;easy;Sicily.svg
+Singapore Island;Singapur (Hauptinsel);Indischer Ozean;710;Singapur;medium;Singapore_Island.svg
+Somerset Island;Somerset-Insel;Arktischer Ozean;24786;Kanada;hard;Somerset_Island.svg
 South Georgia;Südgeorgien;Südatlantik;3518;"Südgeorgien und die 
-Südlichen Sandwichinseln";South_Georgia.svg
-Southampton Island;Southampton Island;Arktischer Ozean;41214;Kanada;Southampton_Island.svg
-Spitsbergen;Spitzbergen;Arktischer Ozean;37673;Norwegen;Spitsbergen.svg
-Sri Lanka;Sri Lanka;Indischer Ozean;65268;Sri Lanka;Sri_Lanka.svg
-Sulawesi;Sulawesi;Westpazifik;174600;Indonesien;Sulawesi.svg
-Sumatra;Sumatra;Indischer Ozean;443066;Indonesien;Sumatra.svg
-Taiwan;Taiwan;Pazifischer Ozean;35801;Republik China (Taiwan);Taiwan.svg
-Tasmania;Tasmanien;Indischer Ozean;64519;Australien;Tasmania.svg
-Tenerife;Teneriffa;Atlantischer Ozean;2034;Spanien;Tenerife.svg
-Tierra del Fuego;Feuerland;Südatlantik;47992;Argentinien/Chile;Tierra_Fuego.svg
-Timor;Timor;Indischer Ozean;28418;Indonesien/Osttimor;Timor.svg
-Vancouver Island;Vancouver Island;Pazifischer Ozean;31285;Kanada;Vancouver_Island.svg
-Victoria Island;Victoria-Insel;Arktischer Ozean;217291;Kanada;Victoria_Island.svg
+Südlichen Sandwichinseln";hard;South_Georgia.svg
+Southampton Island;Southampton Island;Arktischer Ozean;41214;Kanada;hard;Southampton_Island.svg
+Spitsbergen;Spitzbergen;Arktischer Ozean;37673;Norwegen;hard;Spitsbergen.svg
+Sri Lanka;Sri Lanka;Indischer Ozean;65268;Sri Lanka;easy;Sri_Lanka.svg
+Sulawesi;Sulawesi;Westpazifik;174600;Indonesien;medium;Sulawesi.svg
+Sumatra;Sumatra;Indischer Ozean;443066;Indonesien;easy;Sumatra.svg
+Taiwan;Taiwan;Pazifischer Ozean;35801;Republik China (Taiwan);medium;Taiwan.svg
+Tasmania;Tasmanien;Indischer Ozean;64519;Australien;medium;Tasmania.svg
+Tenerife;Teneriffa;Atlantischer Ozean;2034;Spanien;medium;Tenerife.svg
+Tierra del Fuego;Feuerland;Südatlantik;47992;Argentinien/Chile;medium;Tierra_Fuego.svg
+Timor;Timor;Indischer Ozean;28418;Indonesien/Osttimor;hard;Timor.svg
+Vancouver Island;Vancouver Island;Pazifischer Ozean;31285;Kanada;medium;Vancouver_Island.svg
+Victoria Island;Victoria-Insel;Arktischer Ozean;217291;Kanada;hard;Victoria_Island.svg
