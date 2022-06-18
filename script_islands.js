@@ -11,7 +11,7 @@ const islands = [
 	'Fuerteventura',
 	'Iceland',
 	'Malta',
-	// 'Hokkaido',
+	'Hokkaido',
 	'Sumatra',
 ];
 
