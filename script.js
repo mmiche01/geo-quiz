@@ -16,11 +16,11 @@ const answerButton1 = document.getElementById('btn-answer-1');
 const answerButton2 = document.getElementById('btn-answer-2');
 const answerButton3 = document.getElementById('btn-answer-3');
 
-let usedCountries = {};
-let usedIslands = {};
+let quizScope;
 
-let countriesJson;
-let islandsJson;
+let usedEntities = {};
+
+let jsonData;
 let filteredJson;
 
 let round = 1;
@@ -70,21 +70,24 @@ answerButtonsAll.forEach((button) => {
 });
 
 async function loadData() {
-	let response = await fetch('data/countries.json');
-	countriesJson = await response.json();
+	let path = window.location.pathname;
+	quizScope = path.split('/').pop().replace('.html', '');
+	let response = await fetch(`data/${quizScope}.json`);
+	jsonData = await response.json();
 }
 
-function startGame(continentSelection, levelSelection) {
-	filteredJson = filterJson(continentSelection, levelSelection);
+function startGame(geoSelection, levelSelection) {
+	filteredJson = filterJson(geoSelection, levelSelection);
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
 	displayQuestion(filteredJson);
 }
 
-function filterJson(continentSelection, levelSelection) {
-	let filtered = Object.values(countriesJson).filter((value) => {
-		if (continentSelection.value !== 'All') {
-			return value.continent === continentSelection.value;
+function filterJson(geoSelection, levelSelection) {
+	// TODO: Adjust function, should filter the area for islands
+	let filtered = Object.values(jsonData).filter((value) => {
+		if (geoSelection.value !== 'All') {
+			return value.continent === geoSelection.value;
 		} else if (levelSelection.value !== 'all') {
 			return value.level === levelSelection.value;
 		}
@@ -94,14 +97,15 @@ function filterJson(continentSelection, levelSelection) {
 }
 
 function displayQuestion() {
-	const svgElement = document.getElementById('country-svg');
+	const svgElement = document.querySelector('#svg');
 	let tempExcluded = [];
-	let correctCountry = getRandomCountry('correct', tempExcluded);
-	let wrongCountry1 = getRandomCountry('wrong', tempExcluded);
-	let wrongCountry2 = getRandomCountry('wrong', tempExcluded);
+	let correctEntity = getRandomEntity('correct', tempExcluded);
+	let wrongEntity1 = getRandomEntity('wrong', tempExcluded);
+	let wrongEntity2 = getRandomEntity('wrong', tempExcluded);
 	resetStyles();
-	fillButtons(correctCountry, wrongCountry1, wrongCountry2);
-	svgElement.src = `data/svg/countries/${correctCountry.countryCode}.svg`;
+	fillButtons(correctEntity, wrongEntity1, wrongEntity2);
+	console.log(svgElement);
+	svgElement.src = `data/svg/${quizScope}/${correctEntity.filename}`;
 }
 
 function resetStyles() {
@@ -114,33 +118,33 @@ function resetStyles() {
 	progressDisplay.innerText = `${round}/10`;
 }
 
-function getRandomCountry(param, tempExcluded) {
+function getRandomEntity(param, tempExcluded) {
 	let random = getRandomNumber(tempExcluded);
-	let randomCountry = filteredJson[random];
+	let randomEntity = filteredJson[random];
 	if (param === 'correct') {
-		usedCountries[random] = randomCountry;
+		usedEntities[random] = randomEntity;
 	}
 	tempExcluded.push(random);
-	return randomCountry;
+	return randomEntity;
 }
 
 function getRandomNumber(tempExcluded) {
-	const countEntries = Object.keys(countriesJson).length;
+	const countEntries = Object.keys(jsonData).length;
 	let random = Math.floor(Math.random() * countEntries);
-	if (random in usedCountries || !filteredJson[random] || tempExcluded.includes(random)) {
+	if (random in usedEntities || !filteredJson[random] || tempExcluded.includes(random)) {
 		return getRandomNumber(tempExcluded);
 	} else {
 		return random;
 	}
 }
 
-function fillButtons(correctCountry, wrongCountry1, wrongCountry2) {
+function fillButtons(correctEntity, wrongEntity1, wrongEntity2) {
 	let buttonSequence = shuffle([answerButton1, answerButton2, answerButton3]);
-	buttonSequence[0].innerText = correctCountry.nameGer;
+	buttonSequence[0].innerText = correctEntity.nameGer;
 	buttonSequence[0].dataset.answer = 'true';
-	buttonSequence[1].innerText = wrongCountry1.nameGer;
+	buttonSequence[1].innerText = wrongEntity1.nameGer;
 	buttonSequence[1].dataset.answer = 'false';
-	buttonSequence[2].innerText = wrongCountry2.nameGer;
+	buttonSequence[2].innerText = wrongEntity2.nameGer;
 	buttonSequence[2].dataset.answer = 'false';
 }
 
@@ -204,5 +208,5 @@ function resetGame(resultArea) {
 	progressBar.value = 0;
 	round = 1;
 	points = 0;
-	usedCountries = {};
+	usedEntities = {};
 }
