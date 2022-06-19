@@ -1,6 +1,4 @@
-/* Color palettes */
-
-/* CSS HSL */
+/* Color palettes and custom properties */
 /* https://coolors.co/ff892c-ea5e00-fe9a0b-f8dc65-73a700-435804-466900-9ab619 */
 
 :root {
@@ -15,24 +13,6 @@
 
 	--correct: hsla(80, 94%, 25%, 1);
 	--wrong: hsla(0, 85%, 32%, 1);
-}
-
-/* Second palette */
-
-.first-color {
-	background: #ebbf58;
-}
-
-.second-color {
-	background: #769353;
-}
-
-.third-color {
-	background: #3d655d;
-}
-
-.fourth-color {
-	background: #33484d;
 }
 
 /* General layout */
@@ -448,30 +428,4 @@ progress {
 	.tooltip {
 		top: -150%;
 	}
-}
-
-/* Temporary styling for missing island quiz */
-
-.temp-img-display {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-.temp-heading {
-	display: block;
-	text-align: center;
-	color: var(--dark-olive-green);
-	padding-bottom: 1.5rem;
-	border-bottom: 4px solid var(--dark-olive-green);
-}
-
-.svg {
-	width: 20rem;
-	/* padding: 1rem; */
-	border: 1px solid red;
-}
-
-.svg > * {
-	width: 100%;
 }

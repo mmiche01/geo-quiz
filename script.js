@@ -26,6 +26,8 @@ let filteredJson;
 let round = 0;
 let points = 0;
 
+// TODO: Implement Mulitplayer mode
+
 document.addEventListener('load', loadData());
 
 geoSelection.addEventListener('change', () => {
@@ -85,7 +87,6 @@ function startGame(geoSelection, levelSelection) {
 }
 
 function filterJson(geoSelection, levelSelection) {
-	// TODO: Adjust function, should filter the area for islands
 	let filtered;
 	if (quizCategory === 'countries') {
 		filtered = Object.values(jsonData).filter((country) => {
