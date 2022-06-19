@@ -16,14 +16,14 @@ const answerButton1 = document.getElementById('btn-answer-1');
 const answerButton2 = document.getElementById('btn-answer-2');
 const answerButton3 = document.getElementById('btn-answer-3');
 
-let quizScope;
+let quizCategory;
 
 let usedEntities = {};
 
 let jsonData;
 let filteredJson;
 
-let round = 1;
+let round = 0;
 let points = 0;
 
 document.addEventListener('load', loadData());
@@ -71,12 +71,13 @@ answerButtonsAll.forEach((button) => {
 
 async function loadData() {
 	let path = window.location.pathname;
-	quizScope = path.split('/').pop().replace('.html', '');
-	let response = await fetch(`data/${quizScope}.json`);
+	quizCategory = path.split('/').pop().replace('.html', '');
+	let response = await fetch(`data/${quizCategory}.json`);
 	jsonData = await response.json();
 }
 
 function startGame(geoSelection, levelSelection) {
+	round++;
 	filteredJson = filterJson(geoSelection, levelSelection);
 	selectionArea.classList.add('hidden');
 	quizArea.classList.remove('hidden');
@@ -85,14 +86,32 @@ function startGame(geoSelection, levelSelection) {
 
 function filterJson(geoSelection, levelSelection) {
 	// TODO: Adjust function, should filter the area for islands
-	let filtered = Object.values(jsonData).filter((value) => {
-		if (geoSelection.value !== 'All') {
-			return value.continent === geoSelection.value;
-		} else if (levelSelection.value !== 'all') {
-			return value.level === levelSelection.value;
-		}
-		return true;
-	});
+	let filtered;
+	if (quizCategory === 'countries') {
+		filtered = Object.values(jsonData).filter((country) => {
+			if (geoSelection.value !== 'All') {
+				return country.continent === geoSelection.value;
+			} else if (levelSelection.value !== 'all') {
+				return country.level === levelSelection.value;
+			}
+			return true;
+		});
+	} else {
+		filtered = Object.values(jsonData).filter((island) => {
+			if (geoSelection.value !== 'all') {
+				if (geoSelection.value === 'large') {
+					return island.areaInKm2 >= 70000;
+				} else if (geoSelection.value === 'medium') {
+					return island.areaInKm2 >= 20000 && island.areaInKm2 < 70000;
+				} else if (geoSelection.value === 'small') {
+					return island.areaInKm2 < 20000;
+				}
+			} else if (levelSelection.value !== 'all') {
+				return island.level === levelSelection.value;
+			}
+			return true;
+		});
+	}
 	return filtered;
 }
 
@@ -104,8 +123,7 @@ function displayQuestion() {
 	let wrongEntity2 = getRandomEntity('wrong', tempExcluded);
 	resetStyles();
 	fillButtons(correctEntity, wrongEntity1, wrongEntity2);
-	console.log(svgElement);
-	svgElement.src = `data/svg/${quizScope}/${correctEntity.filename}`;
+	svgElement.src = `data/svg/${quizCategory}/${correctEntity.filename}`;
 }
 
 function resetStyles() {
@@ -206,7 +224,7 @@ function gameFinished() {
 function resetGame(resultArea) {
 	resultArea.remove();
 	progressBar.value = 0;
-	round = 1;
+	round = 0;
 	points = 0;
 	usedEntities = {};
 }
