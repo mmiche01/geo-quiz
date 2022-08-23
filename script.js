@@ -31,7 +31,7 @@ let points = 0;
 document.addEventListener('load', loadData());
 
 geoSelection.addEventListener('change', () => {
-	if (geoSelection.value !== 'All') {
+	if (geoSelection.value !== 'all') {
 		levelDropdown.classList.add('disabled');
 		levelSelection.value = 'all';
 		levelSelection.disabled = true;
@@ -90,7 +90,7 @@ function filterJson(geoSelection, levelSelection) {
 	let filtered;
 	if (quizCategory === 'countries') {
 		filtered = Object.values(jsonData).filter((country) => {
-			if (geoSelection.value !== 'All') {
+			if (geoSelection.value !== 'all') {
 				return country.continent === geoSelection.value;
 			} else if (levelSelection.value !== 'all') {
 				return country.level === levelSelection.value;
